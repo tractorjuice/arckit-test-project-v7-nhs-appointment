@@ -1,10 +1,16 @@
 {
-  "generated": "2026-01-22T00:00:00Z",
+  "generated": "2026-01-22T12:00:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v7-nhs-appointment",
     "branch": "main"
   },
-  "global": [],
+  "global": [
+    {
+      "path": ".arckit/memory/architecture-principles.md",
+      "title": "Architecture Principles",
+      "category": "Architecture"
+    }
+  ],
   "projects": []
 }
