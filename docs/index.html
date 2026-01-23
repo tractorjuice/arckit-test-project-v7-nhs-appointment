@@ -457,12 +457,12 @@
 
     <script>
         // ============================================
-        // Configuration
+        // Configuration - UPDATE THESE VALUES
         // ============================================
         const CONFIG = {
-            owner: 'tractorjuice',
-            repo: 'arckit-test-project-v7-nhs-appointment',
-            branch: 'main'
+            owner: 'tractorjuice',           // GitHub username/org
+            repo: 'arckit-test-project-v7-nhs-appointment',             // Repository name
+            branch: 'main'          // Branch name (usually 'main')
         };
 
         // ============================================
@@ -548,17 +548,6 @@
                 manifest.projects.forEach(project => {
                     html += buildProjectNav(project);
                 });
-            }
-
-            // Handle empty manifest
-            if (!html) {
-                container.innerHTML = `
-                    <div style="padding: 1rem; color: #505a5f; text-align: center;">
-                        <p>No documents found.</p>
-                        <p style="font-size: 0.875rem;">Use ArcKit commands to generate architecture artifacts.</p>
-                    </div>
-                `;
-                return;
             }
 
             container.innerHTML = html;
@@ -714,6 +703,8 @@
                 const h1Match = markdown.match(/^#\s+(.+)$/m);
                 if (h1Match) {
                     title = h1Match[1];
+                    // Remove the first H1 from markdown to avoid duplicate title
+                    markdown = markdown.replace(/^#\s+.+$/m, '').trimStart();
                 }
 
                 // Build breadcrumb
