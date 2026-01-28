@@ -1,15 +1,18 @@
 {
-  "generated": "2026-01-26T12:00:00Z",
+  "generated": "2026-01-28T19:15:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v7-nhs-appointment",
     "branch": "main"
   },
+  "defaultDocument": "projects/000-global/ARC-000-PRIN-v1.0.md",
   "global": [
     {
-      "path": ".arckit/memory/architecture-principles.md",
+      "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
       "title": "Architecture Principles",
-      "category": "Architecture"
+      "category": "Architecture",
+      "documentId": "ARC-000-PRIN-v1.0",
+      "isDefault": true
     }
   ],
   "projects": [
@@ -18,13 +21,18 @@
       "name": "NHS Appointment Booking",
       "documents": [
         {
-          "path": "projects/001-nhs-appointment-booking/requirements.md",
+          "path": "projects/001-nhs-appointment-booking/ARC-001-REQ-v1.0.md",
           "title": "Requirements",
-          "category": "Discovery"
+          "category": "Discovery",
+          "documentId": "ARC-001-REQ-v1.0"
         }
       ],
       "diagrams": [],
+      "research": [],
       "decisions": [],
+      "wardleyMaps": [],
+      "dataContracts": [],
+      "reviews": [],
       "vendors": []
     }
   ]

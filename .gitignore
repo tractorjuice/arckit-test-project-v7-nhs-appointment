@@ -6,3 +6,6 @@
 
 # direnv
 .envrc.local
+
+# ArcKit migration backups
+.backup/
