@@ -47,7 +47,7 @@ ArcKit provides 40 slash commands for generating architecture documents. Command
 ├── templates/                 # Document templates used by commands
 └── scripts/bash/              # Helper scripts for project management
 
-.claude/commands/              # ArcKit slash commands for Claude Code
+# ArcKit commands provided by the ArcKit plugin (marketplace)
 
 projects/                      # Individual architecture projects (created by commands)
 └── 001-project-name/          # Numbered project directories
