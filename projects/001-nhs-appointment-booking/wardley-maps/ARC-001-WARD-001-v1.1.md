@@ -6,14 +6,14 @@
 
 | Field | Value |
 |-------|-------|
-| **Document ID** | ARC-001-WARD-001-v1.0 |
+| **Document ID** | ARC-001-WARD-001-v1.1 |
 | **Document Type** | Wardley Map |
 | **Project** | NHS Digital Appointment Booking Service (Project 001) |
 | **Classification** | OFFICIAL |
 | **Status** | DRAFT |
-| **Version** | 1.0 |
+| **Version** | 1.1 |
 | **Created Date** | 2026-02-10 |
-| **Last Modified** | 2026-02-10 |
+| **Last Modified** | 2026-02-12 |
 | **Review Cycle** | Quarterly |
 | **Next Review Date** | 2026-05-10 |
 | **Owner** | Enterprise Architecture Team |
@@ -26,6 +26,7 @@
 | Version | Date | Author | Changes | Approved By | Approval Date |
 |---------|------|--------|---------|-------------|---------------|
 | 1.0 | 2026-02-10 | ArcKit AI | Initial creation from `/arckit:wardley` command | [PENDING] | [PENDING] |
+| 1.1 | 2026-02-12 | ArcKit AI | Enhanced with Wardley Mapping knowledge base (Pinecone MCP) — deeper doctrine assessment using Phase I-IV framework, healthcare-specific inertia analysis, enriched climatic patterns and gameplay citations | [PENDING] | [PENDING] |
 
 ---
 
@@ -260,6 +261,8 @@ style wardley
 
 ## Build vs Buy Analysis
 
+> **Knowledge Base Source**: *Introduction to Wardley Mapping, The Evolution Axis* — "**Build vs Buy**: Custom-build for genesis and early custom stages, buy for product and commodity stages." Additionally: "**Investment decisions**: Invest in genesis and custom-built for potential advantage, focus on efficiency for commodities." And: "**Talent management**: Match skills (pioneers, settlers, town planners) to the evolutionary stage of components."
+
 ### Build (In-House Development)
 
 **Candidates for Building**:
@@ -323,19 +326,42 @@ style wardley
 
 ## Inertia and Barriers to Change
 
+> **Knowledge Base Source**: *Wardley Inertia* — "The healthcare industry faces unique challenges in adopting digital health technologies due to inertia: **Data Security Concerns** (sensitivity of healthcare data creates resistance), **Resistance from Traditional Practices** (providers accustomed to face-to-face interactions), and **Lack of Competitive Pricing** (difficult to justify costs)." The COVID-19 pandemic demonstrated that external forcing functions can overcome healthcare inertia — providers who adapted to digital health were able to continue delivering care.
+
+### Types of Inertia Affecting This Project
+
+> **Knowledge Base Source**: *Wardley Inertia, Chapter 1* — "Inertia encompasses resistance to change within physical, social, financial, and political dimensions. It is the tendency of an organisation to maintain its current trajectory despite external pressures."
+
+| Inertia Type | Source | Manifestation in NHS Booking | Severity |
+|-------------|--------|------------------------------|----------|
+| **Social Inertia** | Cultural norms, established practices | NHS reception staff with decades of phone-based booking workflows; "we've always done it this way" | HIGH |
+| **Financial Inertia** | Sunk costs, budget allocation | Hospital trusts invested in existing PAS systems; switching costs perceived as prohibitive | HIGH |
+| **Political Inertia** | Power dynamics, vested interests | PAS vendors (Cerner, Epic, System C) have contractual and commercial incentives to resist open FHIR adoption | MEDIUM |
+| **Physical/Technical Inertia** | Legacy systems, skill sets | Legacy PAS APIs (proprietary); NHS IT teams skilled in existing integrations, not FHIR | MEDIUM |
+
+### Component-Level Inertia Analysis
+
 | Component | Current Evolution | Desired Evolution | Inertia Factor | Barrier Description | Mitigation Strategy |
 |-----------|-------------------|-------------------|----------------|---------------------|---------------------|
-| Hospital PAS Integration | Custom (0.35) | Product (0.55) | High | 10+ PAS vendors (Cerner, Epic, System C, etc.) with proprietary APIs; no universal FHIR adoption | Push for FHIR adoption via NHS England mandate; build vendor-neutral adapter layer; phase rollout trust-by-trust |
-| GP System Vendors | Product (0.55) | Product (0.65) | Medium | GP suppliers may resist extending GP Connect capabilities | Escalate to NHS England; regulatory pressure via GP IT Futures contract |
-| NHS Staff Processes | Custom (0.38) | Product (0.55) | Medium | Established phone-based booking workflows; cultural resistance to digital self-service | Change management programme; demonstrate time savings; phased rollout with GP champions |
-| Citizen Digital Skills | Custom (0.30) | Product (0.50) | Medium | 20%+ of NHS users have low digital skills; elderly and vulnerable populations | Assisted digital pathway (FR-011); maintain phone booking; user testing with diverse groups |
+| Hospital PAS Integration | Custom (0.35) | Product (0.55) | HIGH | 10+ PAS vendors with proprietary APIs; financial and political inertia from vendor lock-in; no universal FHIR adoption | Push for FHIR adoption via NHS England mandate; build vendor-neutral adapter layer; phase rollout trust-by-trust |
+| GP System Vendors | Product (0.55) | Product (0.65) | MEDIUM | GP suppliers may resist extending GP Connect; past success with existing models breeds resistance | Escalate to NHS England; regulatory pressure via GP IT Futures contract |
+| NHS Staff Processes | Custom (0.38) | Product (0.55) | MEDIUM | Social inertia: established phone-based workflows; fear of the unknown; comfort with status quo | Change management programme; engage staff in planning; demonstrate time savings; GP champions |
+| Citizen Digital Skills | Custom (0.30) | Product (0.50) | MEDIUM | 20%+ of NHS users have low digital skills; elderly and vulnerable populations | Assisted digital pathway (FR-011); maintain phone booking; user testing with diverse groups |
+
+### Overcoming Inertia: Strategies from the Knowledge Base
+
+> **Knowledge Base Source**: *Wardley Inertia, Chapter 2* — "Overcoming social inertia requires: **Building a change-ready culture**, **engaging employees in the change process**, **effective communication** of the rationale for change, **leadership role modelling**, and **providing support and resources**."
 
 **De-risking Strategies**:
-- [x] Phased rollout starting with digitally-mature GP practices
-- [x] Parallel phone booking channel maintained throughout
-- [x] Trust-by-trust hospital onboarding with dedicated integration support
-- [x] NHS England mandate for FHIR adoption to reduce PAS integration inertia
-- [x] Change management and training for NHS reception staff
+- [x] **Phased rollout** starting with digitally-mature GP practices (reduces social inertia by demonstrating success)
+- [x] **Parallel phone booking** channel maintained throughout (addresses fear of the unknown)
+- [x] **Trust-by-trust hospital onboarding** with dedicated integration support (reduces technical inertia)
+- [x] **NHS England mandate** for FHIR adoption to reduce PAS vendor political inertia
+- [x] **Change management and training** for NHS reception staff (addresses social inertia directly)
+- [x] **GP champions programme** — engage early adopters who model desired behaviours (leadership role modelling)
+- [x] **Clear communication** of DNA cost savings (£250M/year) to build compelling rationale for change
+
+> **Key Insight**: Per the knowledge base, *"it's not a lack of innovation that causes companies to fail but inertia caused by pre-existing business models"* (Blockbuster case study). The NHS Booking Service must actively manage inertia rather than assuming superior technology will drive adoption.
 
 ---
 
@@ -475,75 +501,124 @@ flowchart TD
 
 ## Strategic Gameplay
 
+> **Knowledge Base Source**: *Introduction to Wardley Mapping Gameplays* — "Gameplays are context-specific patterns of strategic action that organisations can employ to influence their competitive landscape. These plays are not universal solutions but rather tactical approaches that can be applied based on the specific context revealed by a Wardley Map."
+
 ### Gameplay Patterns Identified
 
 **Tower and Moat** (protect competitive advantage):
-- [x] Appointment Booking Engine: Core domain logic; NHS-specific business rules create strategic IP
-- [x] Slot Retrieval Service: Real-time aggregation expertise across diverse NHS systems
+> Per the KB: *"Building a strong central position (tower) and surrounding it with complementary components or services (moat) to protect and reinforce your position... Develop a core offering and surround it with complementary products or services."* Key considerations include maintaining openness and interoperability to avoid negative lock-in effects.
+
+- [x] **Tower**: Appointment Booking Engine — core domain logic; NHS-specific business rules create strategic IP
+- [x] **Moat**: Slot Retrieval Service, Cancellation Service, Proxy Booking — complementary components that reinforce the booking platform
+- [x] **Openness balance**: Use open standards (FHIR, OpenAPI) and consider open-sourcing booking patterns to balance ecosystem control with openness (per KB: *"Focusing on creating genuine value through integration rather than just creating switching costs"*)
 
 **Land and Expand** (phased market entry):
 - [x] GP-first MVP: Launch with GP appointments (70% of volume), expand to hospitals in Phase 2
 - [x] Regional pilots before national rollout (BC-001)
+- [x] Per KB (AWS case study): *"Early entry allowed AWS to set industry standards, gain a vast number of customers, and create a substantial barrier to entry for competitors."* — similarly, early GP booking success creates adoption momentum
 
 **Two-Factor Market** (serve both sides):
 - [x] Citizen booking interface AND staff booking interface on same platform
-- [x] Citizens self-serve; staff handle assisted digital - both benefit from same booking engine
+- [x] Citizens self-serve; staff handle assisted digital — both benefit from same booking engine
 
 **Ecosystem Play** (enable others to build):
+> Per the KB: *"The more companies you have building on top of your utility (i.e. the larger your ecosystem) then the more things your 'outside' pioneers will be building."* The ILC (Innovate-Leverage-Commoditise) model applies: provide booking as a platform component for the wider NHS ecosystem.
+
 - [x] Open-source booking patterns for NHS community reuse (24-month horizon)
 - [x] Standard FHIR profiles enable other NHS services to integrate
+- [x] API-first design allows third-party NHS applications to consume booking capabilities
 
 **Accelerators** (speed up evolution):
-- [x] Push for FHIR standard adoption to commoditise hospital PAS integration
-- [x] NHS England mandate for GP Connect and PAS interoperability
+> Per the KB: *"The evolution of a component can be accelerated by an open approach, whether open source or open data."* Open approaches promote transparency, collaboration, and shared value creation.
+
+- [x] Push for FHIR standard adoption to commoditise hospital PAS integration (open standards accelerator)
+- [x] NHS England mandate for GP Connect and PAS interoperability (regulatory accelerator)
+- [x] Open-source NHS booking patterns to accelerate ecosystem adoption
+
+**De-accelerators to Watch**:
+> Per the KB: *"The evolution of a component can be slowed down through the use of fear, uncertainty and doubt when crossing an inertia barrier or through the use of patents to ring-fence a technology."*
+
+- [x] PAS vendor FUD about FHIR reliability may slow hospital integration adoption
+- [x] Proprietary PAS vendor APIs act as de facto ring-fencing of hospital integration
 
 ### Anti-Patterns to Avoid
 
-- **Legacy Trap**: Do NOT build custom notification service - use NHS Notify (commodity)
-- **Legacy Trap**: Do NOT build custom authentication - use NHS Login (product)
-- **Legacy Trap**: Do NOT build custom cloud infrastructure - use G-Cloud managed services
+- **Legacy Trap**: Do NOT build custom notification service — use NHS Notify (commodity)
+- **Legacy Trap**: Do NOT build custom authentication — use NHS Login (product)
+- **Legacy Trap**: Do NOT build custom cloud infrastructure — use G-Cloud managed services
 - **Premature Innovation**: Do NOT apply fixed-scope contracts to Genesis components (Waitlist Manager)
 - **Premature Innovation**: Do NOT outsource core booking logic via fixed-price vendor contract
+- **One Size Fits All**: Do NOT use the same project methodology across all evolution stages (per KB: *"There is no single method that will fit all"*)
 
 ---
 
 ## Doctrine Assessment Summary
 
-| Category | Area | Score | Evidence |
-|----------|------|-------|----------|
-| **Communication** | Common Language | 4 | FHIR, NHS Data Dictionary, and HL7 standards provide shared vocabulary |
-| | Challenge Assumptions | 3 | Phased delivery (GP-first) challenges "big bang" assumption; user research planned |
-| | Focus on User Needs | 4 | Four user personas defined; user research embedded in Discovery/Alpha |
-| **Development** | Appropriate Methods | 3 | GDS Agile (Discovery/Alpha/Beta/Live); but need to match agile intensity to evolution stage |
-| | Cell-Based Teams | 3 | Small team structure planned (5-12 FTE); but not yet implemented |
-| | Manage Inertia | 3 | Hospital PAS inertia identified; GP vendor inertia noted; mitigation planned |
-| | Use Standards | 4 | FHIR, OAuth2, OpenAPI, WCAG 2.2 - strong standards adoption |
-| **Operation** | Think FIRE | 3 | Serverless architecture is elegant/efficient; but solution scope is broad |
-| | Manage Failure | 4 | Circuit breakers, retry, graceful degradation defined in requirements |
-| | Optimise Flow | 3 | Async patterns for non-real-time; event-driven for notifications |
-| **Learning** | Systematic Learning | 2 | User research planned but no feedback loop for strategic learning yet |
-| | Know Users | 4 | Four personas; diverse user needs including accessibility |
-| | Know Details | 3 | Requirements detailed; but some integration details TBD |
-| **Leading** | Ownership | 3 | SRO and Product Owner defined; but positions TBD |
-| | Move Fast | 3 | MVP approach shows urgency; but procurement may slow execution |
-| | Iterative Strategy | 3 | Phased delivery is iterative; Wardley Map enables strategic iteration |
+> **Knowledge Base Source**: *Introduction to Wardley Mapping Doctrine* — The four phases of doctrine (Phase I: Stop Self-Harm, Phase II: Becoming More Context Aware, Phase III: Better for Less, Phase IV: Continuously Evolving) provide the assessment framework. Each phase builds upon the previous one across six categories: Communication, Development, Operation, Learning, Leading, and Structure.
 
-**Overall Doctrine Score**: 3.2 / 5.0 (Emerging - recognised as important, partially adopted)
+### Phase Maturity Assessment
 
-**Key Weakness**: Systematic learning (2/5) - recommend establishing a strategic feedback loop with quarterly Wardley Map reviews and post-phase retrospectives.
+| Phase | Focus | Project Maturity | Evidence |
+|-------|-------|-----------------|----------|
+| **Phase I: Stop Self-Harm** | Basic Awareness & Stabilisation | **Strong (4/5)** | Common language (FHIR, NHS Data Dictionary); user needs understood (4 personas); appropriate methods (GDS Agile); systematic learning partially adopted |
+| **Phase II: Becoming More Context Aware** | Contextual Awareness & Optimisation | **Moderate (3/5)** | Bias towards open (open standards); manage inertia (identified but mitigation TBD); small teams planned; but strategy iteration and decentralised decision-making still emerging |
+| **Phase III: Better for Less** | Continuous Improvement | **Emerging (2/5)** | Optimise flow (async patterns); but exceptional standards, innovation bias, and "do better with less" not yet demonstrated — project is pre-build |
+| **Phase IV: Continuously Evolving** | Adaptability & Strategic Agility | **Not Yet (1/5)** | Ecosystem listening, landscape exploitation, and design for constant evolution are aspirational; no single culture not addressed |
+
+### Detailed Doctrine Scoring
+
+| Category | Area | Phase | Score | Evidence |
+|----------|------|-------|-------|----------|
+| **Communication** | Common Language | I | 4 | FHIR, NHS Data Dictionary, HL7, and OpenAPI provide shared vocabulary across teams |
+| | Challenge Assumptions | I | 3 | Phased delivery (GP-first) challenges "big bang" assumption; user research planned |
+| | Understand What is Being Considered | I | 4 | Wardley Map provides situational awareness; requirements well-documented |
+| | Bias Towards Open | II | 3 | Open standards (FHIR, OAuth2, OpenAPI); NHS Design System open-source; but not yet publishing reusable components |
+| **Development** | Know Your Users | I | 4 | Four user personas defined; user research embedded in Discovery/Alpha |
+| | Focus on User Needs | I | 4 | Requirements prioritised by user value (MoSCoW); accessibility-first |
+| | Remove Bias and Duplication | I | 3 | Reuse of NHS platform services avoids duplication; but bias testing limited |
+| | Use Appropriate Methods | I | 3 | GDS Agile phases; but *"no single method fits all"* — need to match Agile (genesis), Lean (custom), Six Sigma (commodity) to evolution stage |
+| | Focus on Outcome | II | 3 | Outcome-focused (DNA reduction, user satisfaction); but procurement still contract-focused |
+| | Think FIRE | II | 3 | Serverless is elegant/efficient; but solution scope is broad for MVP |
+| | Use Standards | II | 4 | FHIR, OAuth2, OpenAPI, WCAG 2.2 — strong standards adoption |
+| **Operation** | Know the Details | I | 3 | Requirements detailed; some integration specifics TBD |
+| | Manage Inertia | II | 3 | Hospital PAS and GP vendor inertia identified; mitigation planned but unproven |
+| | Manage Failure | II | 4 | Circuit breakers, retry, graceful degradation defined in requirements |
+| | Effectiveness over Efficiency | II | 3 | DNA reduction (effectiveness) prioritised; but cost optimisation not yet addressed |
+| | Optimise Flow | III | 3 | Async patterns for non-real-time; event-driven for notifications |
+| **Learning** | Systematic Learning (Bias Towards Data) | I | 2 | Analytics platform planned but no feedback loop for strategic learning yet |
+| | Bias Towards Action | II | 3 | MVP approach; but procurement timelines may slow experimentation |
+| | Bias Towards New | III | 2 | Focus on proven patterns; limited exploration of emerging approaches |
+| **Leading** | Move Fast | II | 3 | MVP shows urgency; procurement may slow execution |
+| | Strategy is Iterative | II | 3 | Phased delivery is iterative; Wardley Map enables strategic iteration |
+| | Commit to Direction | III | 3 | GP-first strategy clear; hospital phase less defined |
+| **Structure** | Think Small Teams | II | 3 | Small team structure planned (5-12 FTE); not yet implemented |
+| | Distribute Power | II | 2 | Centralised decision-making currently; no evidence of empowered teams |
+| | Think Aptitude and Attitude | II | 2 | Pioneers/settlers/town planners model not explicitly adopted |
+
+**Overall Doctrine Score**: 3.0 / 5.0 (Phase I strong, Phase II moderate, Phase III-IV emerging)
+
+**Key Weaknesses**:
+1. **Systematic Learning (2/5)** — No strategic feedback loop; recommend quarterly Wardley Map reviews and post-phase retrospectives
+2. **Distribute Power (2/5)** — Centralised decision-making; per doctrine Phase II, decentralise to empower delivery teams
+3. **Aptitude and Attitude (2/5)** — No explicit pioneers/settlers/town planners model; match talent to evolution stage (pioneers for Waitlist Manager genesis, settlers for Booking Engine custom, town planners for cloud commodity)
+4. **Appropriate Methods (3/5)** — Per the knowledge base: *"no single method fits all"* — use Agile for genesis (Waitlist Manager), Lean for custom (Booking Engine), Six Sigma/ITIL for commodity (cloud infrastructure)
 
 ---
 
 ## Climatic Pattern Analysis
 
+> **Knowledge Base Source**: *Wardley Mapping Foundation Course, Climatic Patterns* — "Climatic patterns are those things which change the map regardless of your actions... You cannot stop climatic patterns from happening." These are aggregated market effects driven by supply and demand competition — they will occur whether or not we want them to.
+
 | Pattern | Impact on Project | Timeframe | Action |
 |---------|------------------|-----------|--------|
-| **Everything Evolves** | Hospital PAS integrations will standardise on FHIR; booking patterns will commoditise | 24 months | Build with evolution in mind; modular adapters; prepare for transition to product/commodity |
-| **Efficiency Enables Innovation** | Commodity cloud infrastructure enables focus on booking domain innovation | Immediate | Maximise use of managed cloud services to free budget for custom booking logic |
-| **Co-Evolution** | FHIR adoption drives GP Connect and PAS integration maturity together | 12-24 months | Invest in FHIR expertise; contribute to NHS FHIR community |
-| **Success Breeds Inertia** | NHS staff comfortable with phone-based booking; hospital trusts invested in existing PAS | Ongoing | Change management programme; demonstrate ROI; use GP success to motivate hospitals |
-| **Higher Order Systems** | Booking + Reminders + Analytics = Intelligent Capacity Management (new value) | 18-24 months | Plan for capacity management as emergent higher-order system |
-| **Componentization Increases** | Monolithic PAS systems being replaced by modular, API-driven services | 24-36 months | Design for composability; microservices architecture; standard interfaces |
+| **Everything Evolves** | Hospital PAS integrations will standardise on FHIR; booking patterns will commoditise. Per the KB: *"All components (activities, practices, mental models) move from the left to the right"* and *"No choice on evolution: things move to the right whether you want it or not."* | 24 months | Build with evolution in mind; modular adapters; prepare for transition to product/commodity |
+| **Efficiency Enables Innovation** | Commodity cloud infrastructure enables focus on booking domain innovation. Per the KB: *"Standardisation lowers the cost of experimenting, which makes experimentation cheaper, so more experiments are conducted, and more new things are built."* Cloud commodity services (Container Platform 0.88, Database 0.90) free capital for genesis/custom booking components. | Immediate | Maximise use of managed cloud services to free budget for custom booking logic |
+| **Co-Evolution** | FHIR adoption drives GP Connect and PAS integration maturity together. Per the KB: *"All components can co-evolve... commonly seen with the co-evolution of practice (how we do something) with the evolution of an activity (what we do) especially as we shift from products to more industrialised forms. DevOps is one such example."* Similarly, FHIR practice is co-evolving with clinical data exchange. | 12-24 months | Invest in FHIR expertise; contribute to NHS FHIR community |
+| **Success Breeds Inertia** | NHS staff comfortable with phone-based booking; hospital trusts invested in existing PAS. Per the KB: *"Past success breeds inertia: everything you do will make changes in the future more difficult, especially if you are successful"* and *"it's not a lack of innovation that harmed companies such as Blockbuster and Kodak but instead inertia to change created by past success."* | Ongoing | Change management programme; demonstrate ROI; use GP success to motivate hospitals |
+| **No One Size Fits All** | Different management methods required for different evolution stages. Per the KB: *"Exploration requires different approach than commodity market... Agile for the uncharted space, Lean for the transitional, Six Sigma/ITIL for the industrialised domain."* | Ongoing | Use Agile (Waitlist Manager genesis), Lean (Booking Engine custom), ITIL/Six Sigma (cloud commodity) |
+| **Higher Order Systems** | Booking + Reminders + Analytics = Intelligent Capacity Management (new value). Per the KB: *"Higher order systems create new sources of worth"* — commodity booking components will enable genesis of capacity management intelligence. | 18-24 months | Plan for capacity management as emergent higher-order system |
+| **Componentisation Increases** | Monolithic PAS systems being replaced by modular, API-driven services. Per the KB: *"As an activity becomes industrialised and provided as ever more standardised and commodity components, it allows for increasing speed of implementation and rapid change."* | 24-36 months | Design for composability; microservices architecture; standard interfaces |
+| **Red Queen Effect** | Competitive pressure forces NHS trusts to adopt digital booking or fall behind. Per the KB: *"The pressure for adoption of a successful change increases as more adopt the change... Standing still guarantees you will be overtaken."* | 12-24 months | Use early GP success to create adoption pressure on hospitals; publicise DNA reduction metrics |
 
 ---
 
@@ -690,6 +765,7 @@ flowchart TD
 | Version | Date | Author | Changes | Rationale |
 |---------|------|--------|---------|-----------|
 | v1.0 | 2026-02-10 | ArcKit AI | Initial current state and procurement strategy map | Baseline strategic analysis for project initiation |
+| v1.1 | 2026-02-12 | ArcKit AI | Enhanced with Wardley Mapping knowledge base (Pinecone MCP) — deeper doctrine, inertia, climatic patterns, gameplay, and build vs buy citations | Ground strategic analysis in established Wardley Mapping theory |
 
 **Next Review Date**: 2026-05-10
 
@@ -757,8 +833,8 @@ A Wardley Map is a visual representation of:
 ---
 
 **Generated by**: ArcKit `/arckit:wardley` command
-**Generated on**: 2026-02-10
+**Generated on**: 2026-02-12 (v1.1 update)
 **ArcKit Version**: 2.4.0
 **Project**: NHS Digital Appointment Booking Service (Project 001)
 **AI Model**: claude-opus-4-6
-**Generation Context**: Based on ARC-001-REQ-v1.0, ARC-000-PRIN-v1.1, ARC-001-AWRS-v1.0, ARC-001-AZRS-v1.0, ARC-001-GCRS-v1.2, and enhanced strategic analysis references (doctrine, gameplay, climatic patterns)
+**Generation Context**: v1.0 based on ARC-001-REQ-v1.0, ARC-000-PRIN-v1.1, ARC-001-AWRS-v1.0, ARC-001-AZRS-v1.0, ARC-001-GCRS-v1.2. v1.1 enhanced with Wardley Mapping Knowledge Base via Pinecone MCP (`wardleykb-integrated` index, 483 records) — doctrine Phase I-IV framework, healthcare inertia analysis, climatic pattern citations (everything evolves, efficiency enables innovation, co-evolution, Red Queen, no one size fits all), gameplay patterns (Tower and Moat, ILC ecosystem, open approaches, accelerators/de-accelerators), and evolution axis build vs buy principles.
