@@ -1,11 +1,11 @@
 {
-  "generated": "2026-02-06T12:00:00Z",
+  "generated": "2026-02-20T12:00:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v7-nhs-appointment",
     "branch": "main"
   },
-  "defaultDocument": "projects/000-global/ARC-000-PRIN-v1.0.md",
+  "defaultDocument": "projects/000-global/ARC-000-PRIN-v1.1.md",
   "guides": [
     {
       "path": "docs/guides/requirements.md",
@@ -68,6 +68,12 @@
       "status": "beta"
     },
     {
+      "path": "docs/guides/strategy.md",
+      "title": "Architecture Strategy Playbook",
+      "category": "Planning",
+      "status": "beta"
+    },
+    {
       "path": "docs/guides/principles.md",
       "title": "Architecture Principles Guide",
       "category": "Architecture",
@@ -126,12 +132,6 @@
       "title": "Data Mesh Contract Quick Guide",
       "category": "Architecture",
       "status": "alpha"
-    },
-    {
-      "path": "docs/guides/strategy.md",
-      "title": "Architecture Strategy Playbook",
-      "category": "Architecture",
-      "status": "beta"
     },
     {
       "path": "docs/guides/risk.md",
@@ -311,7 +311,7 @@
       "path": "docs/guides/migration.md",
       "title": "File Migration Playbook",
       "category": "Other",
-      "status": "beta"
+      "status": "experimental"
     },
     {
       "path": "docs/guides/customize.md",
@@ -329,12 +329,20 @@
   "global": [
     {
       "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
-      "title": "Architecture Principles",
+      "title": "Architecture Principles v1.0",
       "category": "Architecture",
-      "documentId": "ARC-000-PRIN-v1.0",
+      "documentId": "ARC-000-PRIN-v1.0"
+    },
+    {
+      "path": "projects/000-global/ARC-000-PRIN-v1.1.md",
+      "title": "Architecture Principles v1.1",
+      "category": "Architecture",
+      "documentId": "ARC-000-PRIN-v1.1",
       "isDefault": true
     }
   ],
+  "globalExternal": [],
+  "globalPolicies": [],
   "projects": [
     {
       "id": "001-nhs-appointment-booking",
@@ -345,14 +353,99 @@
           "title": "Requirements",
           "category": "Discovery",
           "documentId": "ARC-001-REQ-v1.0"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/ARC-001-RSCH-v1.0.md",
+          "title": "Research Findings",
+          "category": "Discovery",
+          "documentId": "ARC-001-RSCH-v1.0"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/ARC-001-PLAN-v1.0.md",
+          "title": "Project Plan",
+          "category": "Planning",
+          "documentId": "ARC-001-PLAN-v1.0"
         }
       ],
       "diagrams": [],
+      "research": [
+        {
+          "path": "projects/001-nhs-appointment-booking/research/ARC-001-AWRS-v1.0.md",
+          "title": "AWS Research",
+          "documentId": "ARC-001-AWRS-v1.0"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/research/ARC-001-AZRS-v1.0.md",
+          "title": "Azure Research",
+          "documentId": "ARC-001-AZRS-v1.0"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.0.md",
+          "title": "GCP Research v1.0",
+          "documentId": "ARC-001-GCRS-v1.0"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.1.md",
+          "title": "GCP Research v1.1",
+          "documentId": "ARC-001-GCRS-v1.1"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.2.md",
+          "title": "GCP Research v1.2",
+          "documentId": "ARC-001-GCRS-v1.2"
+        }
+      ],
       "decisions": [],
-      "wardleyMaps": [],
+      "wardleyMaps": [
+        {
+          "path": "projects/001-nhs-appointment-booking/wardley-maps/ARC-001-WARD-001-v1.1.md",
+          "title": "Wardley Map: Current State & Procurement Strategy",
+          "documentId": "ARC-001-WARD-001-v1.1"
+        }
+      ],
       "dataContracts": [],
       "reviews": [],
       "vendors": [],
+      "vendorProfiles": [
+        {
+          "path": "projects/001-nhs-appointment-booking/vendors/aws-profile.md",
+          "title": "AWS"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/vendors/grafana-labs-profile.md",
+          "title": "Grafana Labs"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/vendors/microsoft-azure-profile.md",
+          "title": "Microsoft Azure"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/vendors/nhs-notify-profile.md",
+          "title": "NHS Notify"
+        }
+      ],
+      "techNotes": [
+        {
+          "path": "projects/001-nhs-appointment-booking/tech-notes/nhs-login-oidc.md",
+          "title": "NHS Login OIDC"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/tech-notes/hapi-fhir.md",
+          "title": "HAPI FHIR"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/tech-notes/nhs-bars-fhir.md",
+          "title": "NHS BaRS FHIR"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/tech-notes/aws-aurora-postgresql.md",
+          "title": "AWS Aurora PostgreSQL"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/tech-notes/grafana-oss-observability.md",
+          "title": "Grafana OSS Observability"
+        }
+      ],
       "external": []
     }
   ]
