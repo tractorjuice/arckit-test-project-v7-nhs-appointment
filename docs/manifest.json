@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-20T14:00:00Z",
+  "generated": "2026-02-20T16:00:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v7-nhs-appointment",
@@ -324,6 +324,114 @@
       "title": "Upgrading ArcKit",
       "category": "Other",
       "status": "beta"
+    },
+    {
+      "path": "docs/guides/gcp-research.md",
+      "title": "Google Cloud Technology Research Guide",
+      "category": "Research",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/presentation.md",
+      "title": "Presentation Guide",
+      "category": "Other",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/artifact-health.md",
+      "title": "Artifact Health Guide",
+      "category": "Governance",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/c4-layout-science.md",
+      "title": "C4 Layout Science Guide",
+      "category": "Architecture",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/codes-of-practice.md",
+      "title": "UK Government Codes of Practice Reference Guide",
+      "category": "Compliance",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/data-quality-framework.md",
+      "title": "UK Government Data Quality Framework Reference Guide",
+      "category": "Governance",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/govs-007-security.md",
+      "title": "GovS 007: Security Reference Guide",
+      "category": "Compliance",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/knowledge-compounding.md",
+      "title": "Knowledge Compounding Guide",
+      "category": "Other",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/national-data-strategy.md",
+      "title": "UK National Data Strategy Reference Guide",
+      "category": "Governance",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/pinecone-mcp.md",
+      "title": "Pinecone MCP Integration Guide",
+      "category": "Other",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/security-hooks.md",
+      "title": "Security Hooks Guide",
+      "category": "Other",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/uk-government/ai-playbook.md",
+      "title": "UK Government AI Playbook Guide",
+      "category": "Compliance",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/uk-government/algorithmic-transparency.md",
+      "title": "Algorithmic Transparency Recording Standard (ATRS) Guide",
+      "category": "Compliance",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/uk-government/digital-marketplace.md",
+      "title": "Digital Marketplace Procurement Guide",
+      "category": "Procurement",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/uk-government/secure-by-design.md",
+      "title": "UK Government Secure by Design Guide",
+      "category": "Compliance",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/uk-government/standards-map.md",
+      "title": "UK Government Digital Policy & Standards Map",
+      "category": "Compliance",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/uk-government/technology-code-of-practice.md",
+      "title": "Technology Code of Practice (TCoP) Guide",
+      "category": "Compliance",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/uk-mod/secure-by-design.md",
+      "title": "MOD Secure by Design Guide",
+      "category": "Compliance",
+      "status": "experimental"
     }
   ],
   "global": [
