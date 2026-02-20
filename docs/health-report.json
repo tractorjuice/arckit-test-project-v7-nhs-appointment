@@ -1,0 +1,76 @@
+{
+  "report": {
+    "scanned_date": "2026-02-20",
+    "projects_scanned": 1,
+    "artifacts_scanned": 9,
+    "summary": {
+      "high": 0,
+      "medium": 1,
+      "low": 0,
+      "total": 1
+    },
+    "findings_by_type": {
+      "STALE-RSCH": 0,
+      "FORGOTTEN-ADR": 0,
+      "UNRESOLVED-COND": 0,
+      "ORPHAN-REQ": 1,
+      "MISSING-TRACE": 0,
+      "VERSION-DRIFT": 0
+    }
+  },
+  "projects": [
+    {
+      "project": "001-nhs-appointment-booking",
+      "artifacts_scanned": 9,
+      "artifacts": [
+        {"id": "ARC-001-REQ-v1.0", "type": "REQ", "version": "1.0", "modified": "2026-01-26", "status": "DRAFT"},
+        {"id": "ARC-001-RSCH-v1.0", "type": "RSCH", "version": "1.0", "modified": "2026-02-20", "status": "DRAFT"},
+        {"id": "ARC-001-PLAN-v1.0", "type": "PLAN", "version": "1.0", "modified": "2026-02-10", "status": "DRAFT"},
+        {"id": "ARC-001-AWRS-v1.0", "type": "AWRS", "version": "1.0", "modified": "2026-02-10", "status": "DRAFT"},
+        {"id": "ARC-001-AZRS-v1.0", "type": "AZRS", "version": "1.0", "modified": "2026-02-10", "status": "DRAFT"},
+        {"id": "ARC-001-GCRS-v1.0", "type": "GCRS", "version": "1.0", "modified": "2026-02-10", "status": "DRAFT"},
+        {"id": "ARC-001-GCRS-v1.1", "type": "GCRS", "version": "1.1", "modified": "2026-02-10", "status": "DRAFT"},
+        {"id": "ARC-001-GCRS-v1.2", "type": "GCRS", "version": "1.2", "modified": "2026-02-10", "status": "DRAFT"},
+        {"id": "ARC-001-WARD-001-v1.1", "type": "WARD", "version": "1.1", "modified": "2026-02-12", "status": "DRAFT"}
+      ],
+      "findings": [
+        {
+          "severity": "MEDIUM",
+          "rule": "ORPHAN-REQ",
+          "project": "001-nhs-appointment-booking",
+          "file": "ARC-001-REQ-v1.0.md",
+          "details": {
+            "total_requirements": 47,
+            "orphaned_count": 47,
+            "reason": "No ADR documents exist in this project",
+            "examples": ["BR-001", "BR-002", "BR-003", "FR-001", "FR-002", "FR-003", "NFR-P-001", "NFR-SEC-001", "INT-001"]
+          },
+          "action": "Create ADRs for key architectural decisions using /arckit:adr"
+        }
+      ]
+    }
+  ],
+  "recommended_actions": [
+    {
+      "priority": 1,
+      "severity": "MEDIUM",
+      "action": "Create ADRs for key architectural decisions",
+      "command": "/arckit:adr",
+      "reason": "47 requirements have no ADR coverage. Major technology choices should be formalised."
+    },
+    {
+      "priority": 2,
+      "severity": "INFO",
+      "action": "Generate traceability matrix",
+      "command": "/arckit:traceability",
+      "reason": "No TRAC artifact exists. Needed once ADRs are created."
+    },
+    {
+      "priority": 3,
+      "severity": "INFO",
+      "action": "Archive superseded GCP research versions (v1.0, v1.1)",
+      "command": null,
+      "reason": "v1.2 supersedes earlier versions. Remove to reduce clutter."
+    }
+  ]
+}
