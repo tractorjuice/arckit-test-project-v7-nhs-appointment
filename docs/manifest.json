@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-24T12:00:00Z",
+  "generated": "2026-02-25T12:00:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v7-nhs-appointment",
@@ -177,13 +177,19 @@
     },
     {
       "path": "docs/guides/data-quality-framework.md",
-      "title": "UK Government Data Quality Framework \u2014 ArcKit Reference Guide",
+      "title": "UK Government Data Quality Framework",
       "category": "Governance",
       "status": "beta"
     },
     {
       "path": "docs/guides/knowledge-compounding.md",
       "title": "Knowledge Compounding Guide",
+      "category": "Governance",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/conformance.md",
+      "title": "Architecture Conformance Guide",
       "category": "Governance",
       "status": "beta"
     },
@@ -237,19 +243,19 @@
     },
     {
       "path": "docs/guides/govs-007-security.md",
-      "title": "GovS 007: Security \u2014 ArcKit Reference Guide",
+      "title": "GovS 007: Security",
       "category": "Compliance",
       "status": "beta"
     },
     {
       "path": "docs/guides/national-data-strategy.md",
-      "title": "UK National Data Strategy \u2014 ArcKit Reference Guide",
+      "title": "UK National Data Strategy",
       "category": "Compliance",
       "status": "beta"
     },
     {
       "path": "docs/guides/codes-of-practice.md",
-      "title": "UK Government Codes of Practice \u2014 ArcKit Reference Guide",
+      "title": "UK Government Codes of Practice",
       "category": "Compliance",
       "status": "beta"
     },
@@ -258,42 +264,6 @@
       "title": "Security Hooks Guide",
       "category": "Compliance",
       "status": "beta"
-    },
-    {
-      "path": "docs/guides/uk-government/ai-playbook.md",
-      "title": "UK Government AI Playbook Guide",
-      "category": "Compliance",
-      "status": "beta"
-    },
-    {
-      "path": "docs/guides/uk-government/algorithmic-transparency.md",
-      "title": "Algorithmic Transparency Recording Standard (ATRS) Guide",
-      "category": "Compliance",
-      "status": "beta"
-    },
-    {
-      "path": "docs/guides/uk-government/secure-by-design.md",
-      "title": "UK Government Secure by Design Guide",
-      "category": "Compliance",
-      "status": "beta"
-    },
-    {
-      "path": "docs/guides/uk-government/standards-map.md",
-      "title": "UK Government Digital Policy & Standards Map",
-      "category": "Compliance",
-      "status": "beta"
-    },
-    {
-      "path": "docs/guides/uk-government/technology-code-of-practice.md",
-      "title": "Technology Code of Practice (TCoP) Guide",
-      "category": "Compliance",
-      "status": "beta"
-    },
-    {
-      "path": "docs/guides/uk-mod/secure-by-design.md",
-      "title": "MOD Secure by Design Guide",
-      "category": "Compliance",
-      "status": "experimental"
     },
     {
       "path": "docs/guides/devops.md",
@@ -362,12 +332,6 @@
       "status": "beta"
     },
     {
-      "path": "docs/guides/uk-government/digital-marketplace.md",
-      "title": "Digital Marketplace Procurement Guide",
-      "category": "Procurement",
-      "status": "beta"
-    },
-    {
       "path": "docs/guides/aws-research.md",
       "title": "AWS Technology Research Guide",
       "category": "Research",
@@ -432,6 +396,134 @@
       "title": "Pinecone MCP Integration Guide",
       "category": "Other",
       "status": "experimental"
+    },
+    {
+      "path": "docs/guides/mcp-servers.md",
+      "title": "ArcKit Plugin Setup Guide",
+      "category": "Other",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/remote-control.md",
+      "title": "Govern Architecture from Anywhere",
+      "category": "Other",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/productivity.md",
+      "title": "Architecture Productivity Guide",
+      "category": "Other",
+      "status": "beta"
+    }
+  ],
+  "roleGuides": [
+    {
+      "path": "docs/guides/roles/enterprise-architect.md",
+      "title": "Enterprise Architect",
+      "family": "Architecture",
+      "commandCount": 12
+    },
+    {
+      "path": "docs/guides/roles/solution-architect.md",
+      "title": "Solution Architect",
+      "family": "Architecture",
+      "commandCount": 10
+    },
+    {
+      "path": "docs/guides/roles/data-architect.md",
+      "title": "Data Architect",
+      "family": "Architecture",
+      "commandCount": 4
+    },
+    {
+      "path": "docs/guides/roles/security-architect.md",
+      "title": "Security Architect",
+      "family": "Architecture",
+      "commandCount": 5
+    },
+    {
+      "path": "docs/guides/roles/business-architect.md",
+      "title": "Business Architect",
+      "family": "Architecture",
+      "commandCount": 5
+    },
+    {
+      "path": "docs/guides/roles/technical-architect.md",
+      "title": "Technical Architect",
+      "family": "Architecture",
+      "commandCount": 5
+    },
+    {
+      "path": "docs/guides/roles/network-architect.md",
+      "title": "Network Architect",
+      "family": "Architecture",
+      "commandCount": 3
+    },
+    {
+      "path": "docs/guides/roles/cto-cdio.md",
+      "title": "CTO / CDIO",
+      "family": "Chief Digital and Data",
+      "commandCount": 5
+    },
+    {
+      "path": "docs/guides/roles/cdo.md",
+      "title": "CDO (Chief Data Officer)",
+      "family": "Chief Digital and Data",
+      "commandCount": 4
+    },
+    {
+      "path": "docs/guides/roles/ciso.md",
+      "title": "CISO (Chief Information Security Officer)",
+      "family": "Chief Digital and Data",
+      "commandCount": 5
+    },
+    {
+      "path": "docs/guides/roles/product-manager.md",
+      "title": "Product Manager",
+      "family": "Product and Delivery",
+      "commandCount": 5
+    },
+    {
+      "path": "docs/guides/roles/delivery-manager.md",
+      "title": "Delivery Manager",
+      "family": "Product and Delivery",
+      "commandCount": 6
+    },
+    {
+      "path": "docs/guides/roles/business-analyst.md",
+      "title": "Business Analyst",
+      "family": "Product and Delivery",
+      "commandCount": 4
+    },
+    {
+      "path": "docs/guides/roles/service-owner.md",
+      "title": "Service Owner",
+      "family": "Product and Delivery",
+      "commandCount": 3
+    },
+    {
+      "path": "docs/guides/roles/data-governance-manager.md",
+      "title": "Data Governance Manager",
+      "family": "Data",
+      "commandCount": 4
+    },
+    {
+      "path": "docs/guides/roles/performance-analyst.md",
+      "title": "Performance Analyst",
+      "family": "Data",
+      "commandCount": 4
+    },
+    {
+      "path": "docs/guides/roles/it-service-manager.md",
+      "title": "IT Service Manager",
+      "family": "IT Operations",
+      "commandCount": 3
+    },
+    {
+      "path": "docs/guides/roles/devops-engineer.md",
+      "title": "DevOps Engineer",
+      "family": "Software Development",
+      "commandCount": 3
     }
   ],
   "global": [
@@ -439,7 +531,8 @@
       "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
       "title": "Architecture Principles v1.0",
       "category": "Architecture",
-      "documentId": "ARC-000-PRIN-v1.0"
+      "documentId": "ARC-000-PRIN-v1.0",
+      "isDefault": false
     },
     {
       "path": "projects/000-global/ARC-000-PRIN-v1.1.md",
@@ -473,51 +566,54 @@
           "title": "Project Plan",
           "category": "Planning",
           "documentId": "ARC-001-PLAN-v1.0"
-        }
-      ],
-      "diagrams": [],
-      "research": [
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/wardley-maps/ARC-001-WARD-001-v1.1.md",
+          "title": "Wardley Map: Procurement Strategy",
+          "category": "Architecture",
+          "documentId": "ARC-001-WARD-001-v1.1"
+        },
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-AWRS-v1.0.md",
-          "title": "AWS Technology Research",
+          "title": "AWS Research",
+          "category": "Research",
           "documentId": "ARC-001-AWRS-v1.0"
         },
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-AZRS-v1.0.md",
-          "title": "Azure Technology Research",
+          "title": "Azure Research",
+          "category": "Research",
           "documentId": "ARC-001-AZRS-v1.0"
         },
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.0.md",
-          "title": "GCP Technology Research v1.0",
+          "title": "GCP Research v1.0",
+          "category": "Research",
           "documentId": "ARC-001-GCRS-v1.0"
         },
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.1.md",
-          "title": "GCP Technology Research v1.1",
+          "title": "GCP Research v1.1",
+          "category": "Research",
           "documentId": "ARC-001-GCRS-v1.1"
         },
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.2.md",
-          "title": "GCP Technology Research v1.2",
+          "title": "GCP Research v1.2",
+          "category": "Research",
           "documentId": "ARC-001-GCRS-v1.2"
         }
       ],
+      "diagrams": [],
       "decisions": [],
-      "wardleyMaps": [
-        {
-          "path": "projects/001-nhs-appointment-booking/wardley-maps/ARC-001-WARD-001-v1.1.md",
-          "title": "Wardley Map: Current State & Procurement Strategy",
-          "documentId": "ARC-001-WARD-001-v1.1"
-        }
-      ],
+      "wardleyMaps": [],
       "dataContracts": [],
       "reviews": [],
       "vendors": [],
       "vendorProfiles": [
         {
           "path": "projects/001-nhs-appointment-booking/vendors/aws-profile.md",
-          "title": "Amazon Web Services (AWS)"
+          "title": "AWS"
         },
         {
           "path": "projects/001-nhs-appointment-booking/vendors/grafana-labs-profile.md",
@@ -535,15 +631,15 @@
       "techNotes": [
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/nhs-login-oidc.md",
-          "title": "NHS Login and OpenID Connect Integration"
+          "title": "NHS Login and OpenID Connect"
         },
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/hapi-fhir.md",
-          "title": "HAPI FHIR \u2014 Open Source FHIR Server"
+          "title": "HAPI FHIR"
         },
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/nhs-bars-fhir.md",
-          "title": "NHS Booking and Referral Standard (BaRS) FHIR API"
+          "title": "NHS BaRS FHIR API"
         },
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/aws-aurora-postgresql.md",
