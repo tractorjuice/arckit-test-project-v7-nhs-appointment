@@ -1,8 +1,8 @@
 {
-  "generated": "2026-02-20T00:00:00Z",
+  "generated": "2026-02-26T12:00:00Z",
   "scanned": {
     "projects": 1,
-    "artifacts": 9
+    "artifacts": 11
   },
   "summary": {
     "HIGH": 0,
@@ -14,6 +14,7 @@
     "STALE-RSCH": 0,
     "FORGOTTEN-ADR": 0,
     "UNRESOLVED-COND": 0,
+    "STALE-EXT": 0,
     "ORPHAN-REQ": 1,
     "MISSING-TRACE": 0,
     "VERSION-DRIFT": 0
@@ -27,7 +28,7 @@
           "severity": "MEDIUM",
           "rule": "ORPHAN-REQ",
           "file": "ARC-001-REQ-v1.0.md",
-          "message": "Total requirements: 47. Requirements not referenced by any ADR: 47 (no ADR documents exist in this project). Examples: BR-001, BR-002, FR-001, FR-002, NFR-P-001",
+          "message": "Total requirements: 47. Requirements not referenced by any ADR: 47 (no ADR documents exist in this project). Examples: BR-001, BR-002, FR-001, FR-002, NFR-SEC-001",
           "action": "Review whether these requirements need architectural decisions documented as ADRs. Run /arckit:adr to create ADRs for key decisions."
         }
       ]
