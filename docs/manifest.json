@@ -1,9 +1,7 @@
 {
-  "generated": "2026-02-25T12:00:00Z",
+  "generated": "2026-02-26T12:00:00Z",
   "repository": {
-    "owner": "tractorjuice",
-    "name": "arckit-test-project-v7-nhs-appointment",
-    "branch": "main"
+    "name": "arckit-test-project-v7-nhs-appointment"
   },
   "defaultDocument": "projects/000-global/ARC-000-PRIN-v1.1.md",
   "guides": [
@@ -29,7 +27,7 @@
       "path": "docs/guides/research.md",
       "title": "Technology Research Guide",
       "category": "Discovery",
-      "status": "beta"
+      "status": "live"
     },
     {
       "path": "docs/guides/datascout.md",
@@ -177,19 +175,13 @@
     },
     {
       "path": "docs/guides/data-quality-framework.md",
-      "title": "UK Government Data Quality Framework",
+      "title": "UK Government Data Quality Framework — ArcKit Reference Guide",
       "category": "Governance",
       "status": "beta"
     },
     {
       "path": "docs/guides/knowledge-compounding.md",
       "title": "Knowledge Compounding Guide",
-      "category": "Governance",
-      "status": "beta"
-    },
-    {
-      "path": "docs/guides/conformance.md",
-      "title": "Architecture Conformance Guide",
       "category": "Governance",
       "status": "beta"
     },
@@ -243,19 +235,19 @@
     },
     {
       "path": "docs/guides/govs-007-security.md",
-      "title": "GovS 007: Security",
+      "title": "GovS 007: Security — ArcKit Reference Guide",
       "category": "Compliance",
       "status": "beta"
     },
     {
       "path": "docs/guides/national-data-strategy.md",
-      "title": "UK National Data Strategy",
+      "title": "UK National Data Strategy — ArcKit Reference Guide",
       "category": "Compliance",
       "status": "beta"
     },
     {
       "path": "docs/guides/codes-of-practice.md",
-      "title": "UK Government Codes of Practice",
+      "title": "UK Government Codes of Practice — ArcKit Reference Guide",
       "category": "Compliance",
       "status": "beta"
     },
@@ -398,20 +390,32 @@
       "status": "experimental"
     },
     {
-      "path": "docs/guides/mcp-servers.md",
-      "title": "ArcKit Plugin Setup Guide",
+      "path": "docs/guides/start.md",
+      "title": "Getting Started with ArcKit",
       "category": "Other",
       "status": "beta"
     },
     {
-      "path": "docs/guides/remote-control.md",
-      "title": "Govern Architecture from Anywhere",
+      "path": "docs/guides/conformance.md",
+      "title": "Architecture Conformance Guide",
       "category": "Other",
       "status": "beta"
     },
     {
       "path": "docs/guides/productivity.md",
       "title": "Architecture Productivity Guide",
+      "category": "Other",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/remote-control.md",
+      "title": "Govern Architecture from Anywhere: Using Claude Code Remote Control with ArcKit",
+      "category": "Other",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/mcp-servers.md",
+      "title": "ArcKit Plugin Setup Guide",
       "category": "Other",
       "status": "beta"
     }
@@ -566,54 +570,51 @@
           "title": "Project Plan",
           "category": "Planning",
           "documentId": "ARC-001-PLAN-v1.0"
-        },
-        {
-          "path": "projects/001-nhs-appointment-booking/wardley-maps/ARC-001-WARD-001-v1.1.md",
-          "title": "Wardley Map: Procurement Strategy",
-          "category": "Architecture",
-          "documentId": "ARC-001-WARD-001-v1.1"
-        },
+        }
+      ],
+      "diagrams": [],
+      "research": [
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-AWRS-v1.0.md",
-          "title": "AWS Research",
-          "category": "Research",
+          "title": "AWS Technology Research",
           "documentId": "ARC-001-AWRS-v1.0"
         },
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-AZRS-v1.0.md",
-          "title": "Azure Research",
-          "category": "Research",
+          "title": "Azure Technology Research",
           "documentId": "ARC-001-AZRS-v1.0"
         },
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.0.md",
-          "title": "GCP Research v1.0",
-          "category": "Research",
+          "title": "GCP Technology Research v1.0",
           "documentId": "ARC-001-GCRS-v1.0"
         },
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.1.md",
-          "title": "GCP Research v1.1",
-          "category": "Research",
+          "title": "GCP Technology Research v1.1",
           "documentId": "ARC-001-GCRS-v1.1"
         },
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.2.md",
-          "title": "GCP Research v1.2",
-          "category": "Research",
+          "title": "GCP Technology Research v1.2",
           "documentId": "ARC-001-GCRS-v1.2"
         }
       ],
-      "diagrams": [],
       "decisions": [],
-      "wardleyMaps": [],
+      "wardleyMaps": [
+        {
+          "path": "projects/001-nhs-appointment-booking/wardley-maps/ARC-001-WARD-001-v1.1.md",
+          "title": "Wardley Map: Procurement Strategy",
+          "documentId": "ARC-001-WARD-001-v1.1"
+        }
+      ],
       "dataContracts": [],
       "reviews": [],
       "vendors": [],
       "vendorProfiles": [
         {
           "path": "projects/001-nhs-appointment-booking/vendors/aws-profile.md",
-          "title": "AWS"
+          "title": "Amazon Web Services (AWS)"
         },
         {
           "path": "projects/001-nhs-appointment-booking/vendors/grafana-labs-profile.md",
@@ -631,15 +632,15 @@
       "techNotes": [
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/nhs-login-oidc.md",
-          "title": "NHS Login and OpenID Connect"
+          "title": "NHS Login and OpenID Connect Integration"
         },
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/hapi-fhir.md",
-          "title": "HAPI FHIR"
+          "title": "HAPI FHIR — Open Source FHIR Server"
         },
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/nhs-bars-fhir.md",
-          "title": "NHS BaRS FHIR API"
+          "title": "NHS Booking and Referral Standard (BaRS) FHIR API"
         },
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/aws-aurora-postgresql.md",
