@@ -1,7 +1,7 @@
 {
-  "generated": "2026-02-27T12:00:00Z",
+  "generated": "2026-02-28T23:10:00Z",
   "scanned": {
-    "projects": 1,
+    "projects": 2,
     "artifacts": 11
   },
   "summary": {
@@ -21,6 +21,11 @@
   },
   "projects": [
     {
+      "id": "000-global",
+      "artifacts": 2,
+      "findings": []
+    },
+    {
       "id": "001-nhs-appointment-booking",
       "artifacts": 9,
       "findings": [
@@ -28,8 +33,8 @@
           "severity": "MEDIUM",
           "rule": "ORPHAN-REQ",
           "file": "ARC-001-REQ-v1.0.md",
-          "message": "48 requirements not referenced by any ADR (no ADR documents exist). Examples: BR-001, BR-002, FR-001, FR-002, NFR-P-001",
-          "action": "Run /arckit:adr to create architectural decisions for key requirements"
+          "message": "Total requirements: 47. Requirements not referenced by any ADR: 47 (no ADRs exist in project). Examples: BR-001, BR-002, FR-001, FR-002, NFR-P-001",
+          "action": "Review whether these requirements need architectural decisions documented as ADRs"
         }
       ]
     }
