@@ -1,9 +1,9 @@
 {
-  "generated": "2026-02-27T12:00:00Z",
+  "generated": "2026-02-28T12:00:00Z",
   "repository": {
     "name": "arckit-test-project-v7-nhs-appointment"
   },
-  "defaultDocument": "projects/000-global/ARC-000-PRIN-v1.0.md",
+  "defaultDocument": "projects/000-global/ARC-000-PRIN-v1.1.md",
   "guides": [
     {
       "path": "docs/guides/requirements.md",
@@ -235,19 +235,19 @@
     },
     {
       "path": "docs/guides/govs-007-security.md",
-      "title": "GovS 007: Security",
+      "title": "GovS 007: Security Reference Guide",
       "category": "Compliance",
       "status": "beta"
     },
     {
       "path": "docs/guides/national-data-strategy.md",
-      "title": "UK National Data Strategy",
+      "title": "UK National Data Strategy Reference Guide",
       "category": "Compliance",
       "status": "beta"
     },
     {
       "path": "docs/guides/codes-of-practice.md",
-      "title": "UK Government Codes of Practice",
+      "title": "UK Government Codes of Practice Reference Guide",
       "category": "Compliance",
       "status": "beta"
     },
@@ -533,16 +533,16 @@
   "global": [
     {
       "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
-      "title": "Architecture Principles",
+      "title": "Architecture Principles (v1.0)",
       "category": "Architecture",
-      "documentId": "ARC-000-PRIN-v1.0",
-      "isDefault": true
+      "documentId": "ARC-000-PRIN-v1.0"
     },
     {
       "path": "projects/000-global/ARC-000-PRIN-v1.1.md",
       "title": "Architecture Principles (v1.1)",
       "category": "Architecture",
-      "documentId": "ARC-000-PRIN-v1.1"
+      "documentId": "ARC-000-PRIN-v1.1",
+      "isDefault": true
     }
   ],
   "globalExternal": [],
@@ -603,7 +603,7 @@
       "wardleyMaps": [
         {
           "path": "projects/001-nhs-appointment-booking/wardley-maps/ARC-001-WARD-001-v1.1.md",
-          "title": "Wardley Map: Procurement Strategy",
+          "title": "Wardley Map: Current State & Procurement Strategy",
           "documentId": "ARC-001-WARD-001-v1.1"
         }
       ],
@@ -639,7 +639,7 @@
         },
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/nhs-bars-fhir.md",
-          "title": "NHS Booking and Referral Standard (BaRS)"
+          "title": "NHS Booking and Referral Standard (BaRS) FHIR API"
         },
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/aws-aurora-postgresql.md",
