@@ -235,19 +235,19 @@
     },
     {
       "path": "docs/guides/govs-007-security.md",
-      "title": "GovS 007: Security Reference Guide",
+      "title": "GovS 007: Security",
       "category": "Compliance",
       "status": "beta"
     },
     {
       "path": "docs/guides/national-data-strategy.md",
-      "title": "UK National Data Strategy Reference Guide",
+      "title": "UK National Data Strategy",
       "category": "Compliance",
       "status": "beta"
     },
     {
       "path": "docs/guides/codes-of-practice.md",
-      "title": "UK Government Codes of Practice Reference Guide",
+      "title": "UK Government Codes of Practice",
       "category": "Compliance",
       "status": "beta"
     },
@@ -533,13 +533,14 @@
   "global": [
     {
       "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
-      "title": "Architecture Principles (v1.0)",
+      "title": "Architecture Principles v1.0",
       "category": "Architecture",
-      "documentId": "ARC-000-PRIN-v1.0"
+      "documentId": "ARC-000-PRIN-v1.0",
+      "isDefault": false
     },
     {
       "path": "projects/000-global/ARC-000-PRIN-v1.1.md",
-      "title": "Architecture Principles (v1.1)",
+      "title": "Architecture Principles v1.1",
       "category": "Architecture",
       "documentId": "ARC-000-PRIN-v1.1",
       "isDefault": true
@@ -585,17 +586,17 @@
         },
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.0.md",
-          "title": "Google Cloud Technology Research (v1.0)",
+          "title": "Google Cloud Technology Research v1.0",
           "documentId": "ARC-001-GCRS-v1.0"
         },
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.1.md",
-          "title": "Google Cloud Technology Research (v1.1)",
+          "title": "Google Cloud Technology Research v1.1",
           "documentId": "ARC-001-GCRS-v1.1"
         },
         {
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.2.md",
-          "title": "Google Cloud Technology Research (v1.2)",
+          "title": "Google Cloud Technology Research v1.2",
           "documentId": "ARC-001-GCRS-v1.2"
         }
       ],
@@ -635,7 +636,7 @@
         },
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/hapi-fhir.md",
-          "title": "HAPI FHIR Server"
+          "title": "HAPI FHIR"
         },
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/nhs-bars-fhir.md",
