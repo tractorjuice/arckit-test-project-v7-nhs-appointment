@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-01T08:37:01.993Z",
+  "generated": "2026-03-01T08:51:04.609Z",
   "repository": {
     "name": "arckit-test-project-v7-nhs-appointment"
   },
@@ -705,6 +705,10 @@
           "title": "Microsoft Azure"
         },
         {
+          "path": "projects/001-nhs-appointment-booking/vendors/nhs-england-digital-profile.md",
+          "title": "Nhs England Digital"
+        },
+        {
           "path": "projects/001-nhs-appointment-booking/vendors/nhs-notify-profile.md",
           "title": "Nhs Notify"
         }
@@ -721,6 +725,10 @@
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/hapi-fhir.md",
           "title": "Tech Note: HAPI FHIR — Open Source FHIR Server"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/tech-notes/nhs-app-integration.md",
+          "title": "Tech Note: NHS App Integration for Appointment Booking Services"
         },
         {
           "path": "projects/001-nhs-appointment-booking/tech-notes/nhs-bars-fhir.md",
