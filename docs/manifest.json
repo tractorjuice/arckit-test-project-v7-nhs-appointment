@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-01T08:11:10.939Z",
+  "generated": "2026-03-01T08:37:01.993Z",
   "repository": {
     "name": "arckit-test-project-v7-nhs-appointment"
   },
@@ -684,6 +684,11 @@
           "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.2.md",
           "title": "Google Cloud Technology Research: NHS Digital Appointment Booking Service",
           "documentId": "ARC-001-GCRS-v1.2"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/research/ARC-001-RSCH-v2.0.md",
+          "title": "Technology and Service Research: NHS Digital Appointment Booking Service",
+          "documentId": "ARC-001-RSCH-v2.0"
         }
       ],
       "vendorProfiles": [

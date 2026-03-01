@@ -11,14 +11,14 @@
 | **Status** | DRAFT |
 | **Version** | 1.0 |
 | **Created Date** | 2026-02-20 |
-| **Last Modified** | 2026-02-20 |
+| **Last Modified** | 2026-03-01 |
 | **Review Cycle** | On-Demand |
-| **Next Review Date** | 2026-08-20 |
+| **Next Review Date** | 2026-09-01 |
 | **Owner** | Enterprise Architect, NHS Digital |
 | **Reviewed By** | PENDING |
 | **Approved By** | PENDING |
 | **Distribution** | Project Team, Architecture Team |
-| **Source Research** | ARC-001-RSCH-v1.0 |
+| **Source Research** | ARC-001-RSCH-v2.0 |
 | **Confidence** | high |
 
 ## Revision History
@@ -26,6 +26,7 @@
 | Version | Date | Author | Changes | Approved By | Approval Date |
 |---------|------|--------|---------|-------------|---------------|
 | 1.0 | 2026-02-20 | ArcKit AI | Initial creation from `/arckit:research` agent | PENDING | PENDING |
+| 1.1 | 2026-03-01 | ArcKit AI | Updated: added 88% push notification opt-in stat; NHS App default channel by 2029 strategy; digital-first channel hierarchy; strengthened mandate section | PENDING | PENDING |
 
 ---
 
@@ -69,23 +70,26 @@ No monthly charge, no setup fee, no procurement process.
 
 ## Strengths
 
-- NHS Notify Service Directions 2025: Secretary of State effectively mandates use for NHS patient communications
+- NHS Notify Service Directions 2025: Secretary of State mandates use for NHS patient communications (February 2025)
 - No procurement overhead — no OJEU, no framework, no contract negotiation
-- NHS App push notifications at zero marginal cost — reduces SMS volume significantly
+- NHS App push notifications at zero marginal cost — **88% of active NHS App users opted in as of early 2025** (Updated 2026-03-01)
+- NHS App is designated default communication channel by 2029 — NHS App push becomes the dominant channel
+- Digital-first channel hierarchy: push (free, 88% reach) > SMS (£0.0233/msg) > email (free) > letter (£0.65)
 - Welsh language template support meets FR-010 (Welsh Language Standards compliance)
 - Pre-built delivery status webhooks — INT-004 requirement met without custom development
 - Deep link support enables one-click appointment management from reminders (FR-005)
 - All data within NHS/UK infrastructure — GDPR and UK data residency maintained
 - Integration takes 4 person-weeks estimate — very low barrier to entry
+- All NHS communications transitioning to NHS Notify by end 2028-29 per Secretary of State directions — long-term strategic certainty
 
 ## Weaknesses
 
-- SMS volume costs significant at national scale: £380,000 estimated in Year 3 for 100M+ appointment programme
+- SMS volume costs significant at national scale: £380,000 estimated in Year 3 for 100M+ appointment programme (mitigated by push-first strategy)
 - Letter delivery adds per-unit cost for digitally excluded citizens (BR-004)
 - No publicly published uptime SLA for NHS Notify (assumed 99.9% by policy — confirmation required)
 - Dependency on NHS England — service evolution and outage management outside project control
 - Limited to NHS/public sector use — cannot extend to private healthcare bookings
-- NHS App push requires citizen to have NHS App installed — not all patients will have it
+- NHS App push requires citizen to have NHS App installed (iOS 15+, Android 8+) and notifications enabled — 88% opt-in of active users; non-active users fall to SMS/email
 
 ## Projects Referenced In
 
