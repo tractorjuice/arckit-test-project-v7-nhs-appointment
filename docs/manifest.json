@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-01T07:02:46.886Z",
+  "generated": "2026-03-01T08:11:10.939Z",
   "repository": {
     "name": "arckit-test-project-v7-nhs-appointment"
   },
@@ -545,6 +545,57 @@
       "documentId": "ARC-000-PRIN-v1.1"
     }
   ],
+  "typeCategories": {
+    "REQ": "Discovery",
+    "STKE": "Discovery",
+    "RSCH": "Discovery",
+    "DSCT": "Discovery",
+    "SOBC": "Planning",
+    "PLAN": "Planning",
+    "ROAD": "Planning",
+    "STRAT": "Planning",
+    "BKLG": "Planning",
+    "PRIN": "Architecture",
+    "HLDR": "Architecture",
+    "DLDR": "Architecture",
+    "DATA": "Architecture",
+    "WARD": "Architecture",
+    "DIAG": "Architecture",
+    "DFD": "Architecture",
+    "ADR": "Architecture",
+    "PLAT": "Architecture",
+    "RISK": "Governance",
+    "TRAC": "Governance",
+    "PRIN-COMP": "Governance",
+    "CONF": "Governance",
+    "PRES": "Governance",
+    "ANAL": "Governance",
+    "GAPS": "Governance",
+    "TCOP": "Compliance",
+    "SECD": "Compliance",
+    "SECD-MOD": "Compliance",
+    "AIPB": "Compliance",
+    "ATRS": "Compliance",
+    "DPIA": "Compliance",
+    "JSP936": "Compliance",
+    "SVCASS": "Compliance",
+    "SNOW": "Operations",
+    "DEVOPS": "Operations",
+    "MLOPS": "Operations",
+    "FINOPS": "Operations",
+    "OPS": "Operations",
+    "SOW": "Procurement",
+    "EVAL": "Procurement",
+    "DOS": "Procurement",
+    "GCLD": "Procurement",
+    "GCLC": "Procurement",
+    "DMC": "Procurement",
+    "VEND": "Procurement",
+    "AWRS": "Research",
+    "AZRS": "Research",
+    "GCRS": "Research",
+    "STORY": "Other"
+  },
   "globalExternal": [
     {
       "path": "projects/000-global/external/.gitkeep",
@@ -566,8 +617,8 @@
       "documents": [
         {
           "path": "projects/001-nhs-appointment-booking/ARC-001-GAPS-v1.0.md",
-          "title": "GAPS",
-          "category": "Other",
+          "title": "Gap Analysis",
+          "category": "Governance",
           "documentId": "ARC-001-GAPS-v1.0"
         },
         {
@@ -593,6 +644,12 @@
           "title": "Traceability Matrix",
           "category": "Governance",
           "documentId": "ARC-001-TRAC-v1.0"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/ARC-001-TRAC-v1.1.md",
+          "title": "Traceability Matrix",
+          "category": "Governance",
+          "documentId": "ARC-001-TRAC-v1.1"
         }
       ],
       "wardleyMaps": [
