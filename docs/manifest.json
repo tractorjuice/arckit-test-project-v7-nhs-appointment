@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-01T08:51:04.609Z",
+  "generated": "2026-03-13T09:30:34.914Z",
   "repository": {
     "name": "arckit-test-project-v7-nhs-appointment"
   },
@@ -38,13 +38,13 @@
     {
       "path": "docs/guides/aws-research.md",
       "title": "AWS Technology Research Guide",
-      "category": "Research",
+      "category": "Integrations",
       "status": "experimental"
     },
     {
       "path": "docs/guides/azure-research.md",
       "title": "Azure Technology Research Guide",
-      "category": "Research",
+      "category": "Integrations",
       "status": "experimental"
     },
     {
@@ -74,13 +74,13 @@
     {
       "path": "docs/guides/conformance.md",
       "title": "Architecture Conformance Guide",
-      "category": "Other",
+      "category": "Governance",
       "status": "beta"
     },
     {
       "path": "docs/guides/customize.md",
       "title": "Template Customization Guide",
-      "category": "Other",
+      "category": "Getting Started",
       "status": "live"
     },
     {
@@ -120,6 +120,12 @@
       "status": "experimental"
     },
     {
+      "path": "docs/guides/dfd.md",
+      "title": "Data Flow Diagram Guide",
+      "category": "Architecture",
+      "status": "experimental"
+    },
+    {
       "path": "docs/guides/diagram.md",
       "title": "Architecture Diagram Guide",
       "category": "Architecture",
@@ -156,6 +162,12 @@
       "status": "experimental"
     },
     {
+      "path": "docs/guides/framework.md",
+      "title": "Framework Guide",
+      "category": "Architecture",
+      "status": "experimental"
+    },
+    {
       "path": "docs/guides/gcloud-clarify.md",
       "title": "G-Cloud Clarification Questions Playbook",
       "category": "Procurement",
@@ -170,7 +182,13 @@
     {
       "path": "docs/guides/gcp-research.md",
       "title": "Google Cloud Technology Research Guide",
-      "category": "Research",
+      "category": "Integrations",
+      "status": "experimental"
+    },
+    {
+      "path": "docs/guides/glossary.md",
+      "title": "Glossary Guide",
+      "category": "Reporting",
       "status": "experimental"
     },
     {
@@ -180,10 +198,28 @@
       "status": "beta"
     },
     {
+      "path": "docs/guides/health.md",
+      "title": "Health Check Guide",
+      "category": "Governance",
+      "status": "experimental"
+    },
+    {
       "path": "docs/guides/hld-review.md",
       "title": "High-Level Design Review Playbook",
       "category": "Architecture",
       "status": "beta"
+    },
+    {
+      "path": "docs/guides/impact.md",
+      "title": "Impact Analysis",
+      "category": "Governance",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/init.md",
+      "title": "Init Guide",
+      "category": "Getting Started",
+      "status": "experimental"
     },
     {
       "path": "docs/guides/jsp-936.md",
@@ -198,15 +234,21 @@
       "status": "beta"
     },
     {
+      "path": "docs/guides/maturity-model.md",
+      "title": "Maturity Model Guide",
+      "category": "Governance",
+      "status": "experimental"
+    },
+    {
       "path": "docs/guides/mcp-servers.md",
       "title": "ArcKit Plugin Setup Guide",
-      "category": "Other",
+      "category": "Integrations",
       "status": "beta"
     },
     {
       "path": "docs/guides/migration.md",
       "title": "File Migration Playbook",
-      "category": "Other",
+      "category": "Planning",
       "status": "experimental"
     },
     {
@@ -236,13 +278,13 @@
     {
       "path": "docs/guides/pages.md",
       "title": "GitHub Pages Generator Playbook",
-      "category": "Other",
+      "category": "Reporting",
       "status": "alpha"
     },
     {
       "path": "docs/guides/pinecone-mcp.md",
       "title": "Pinecone MCP Integration Guide",
-      "category": "Other",
+      "category": "Integrations",
       "status": "experimental"
     },
     {
@@ -260,7 +302,7 @@
     {
       "path": "docs/guides/presentation.md",
       "title": "Presentation Guide",
-      "category": "Other",
+      "category": "Reporting",
       "status": "beta"
     },
     {
@@ -284,13 +326,13 @@
     {
       "path": "docs/guides/productivity.md",
       "title": "Architecture Productivity Guide",
-      "category": "Other",
+      "category": "Getting Started",
       "status": "beta"
     },
     {
       "path": "docs/guides/remote-control.md",
       "title": "Govern Architecture from Anywhere: Using Claude Code Remote Control with ArcKit",
-      "category": "Other",
+      "category": "Getting Started",
       "status": "beta"
     },
     {
@@ -324,6 +366,18 @@
       "status": "beta"
     },
     {
+      "path": "docs/guides/score.md",
+      "title": "Vendor Scoring",
+      "category": "Procurement",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/search.md",
+      "title": "Project Search",
+      "category": "Governance",
+      "status": "beta"
+    },
+    {
       "path": "docs/guides/secure.md",
       "title": "Secure by Design Playbook",
       "category": "Compliance",
@@ -344,7 +398,7 @@
     {
       "path": "docs/guides/servicenow.md",
       "title": "ServiceNow Service Design Playbook",
-      "category": "Operations",
+      "category": "Integrations",
       "status": "beta"
     },
     {
@@ -374,13 +428,13 @@
     {
       "path": "docs/guides/start.md",
       "title": "Getting Started with ArcKit",
-      "category": "Other",
+      "category": "Getting Started",
       "status": "beta"
     },
     {
       "path": "docs/guides/story.md",
       "title": "Project Story Guide",
-      "category": "Other",
+      "category": "Reporting",
       "status": "live"
     },
     {
@@ -396,6 +450,12 @@
       "status": "beta"
     },
     {
+      "path": "docs/guides/template-builder.md",
+      "title": "Template Builder Guide",
+      "category": "Getting Started",
+      "status": "alpha"
+    },
+    {
       "path": "docs/guides/traceability.md",
       "title": "Traceability Guide",
       "category": "Governance",
@@ -404,13 +464,13 @@
     {
       "path": "docs/guides/trello.md",
       "title": "Trello Export Quick Guide",
-      "category": "Other",
+      "category": "Integrations",
       "status": "experimental"
     },
     {
       "path": "docs/guides/upgrading.md",
       "title": "Upgrading ArcKit",
-      "category": "Other",
+      "category": "Getting Started",
       "status": "beta"
     },
     {
@@ -568,7 +628,7 @@
     "TRAC": "Governance",
     "PRIN-COMP": "Governance",
     "CONF": "Governance",
-    "PRES": "Governance",
+    "PRES": "Reporting",
     "ANAL": "Governance",
     "GAPS": "Governance",
     "TCOP": "Compliance",
@@ -594,22 +654,8 @@
     "AWRS": "Research",
     "AZRS": "Research",
     "GCRS": "Research",
-    "STORY": "Other"
+    "STORY": "Reporting"
   },
-  "globalExternal": [
-    {
-      "path": "projects/000-global/external/.gitkeep",
-      "title": ".gitkeep",
-      "type": "file"
-    }
-  ],
-  "globalPolicies": [
-    {
-      "path": "projects/000-global/policies/.gitkeep",
-      "title": ".gitkeep",
-      "type": "file"
-    }
-  ],
   "projects": [
     {
       "id": "001-nhs-appointment-booking",
@@ -738,14 +784,328 @@
           "path": "projects/001-nhs-appointment-booking/tech-notes/nhs-login-oidc.md",
           "title": "Tech Note: NHS Login and OpenID Connect Integration"
         }
-      ],
-      "external": [
-        {
-          "path": "projects/001-nhs-appointment-booking/external/.gitkeep",
-          "title": ".gitkeep",
-          "type": "file"
-        }
       ]
     }
-  ]
+  ],
+  "dependencyGraph": {
+    "nodes": {
+      "ARC-000-PRIN-v1.0": {
+        "type": "PRIN",
+        "project": "000-global",
+        "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
+        "title": "NHS Digital Appointment Service Enterprise Architecture Principles",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-01-22",
+        "lastModified": "2026-01-26"
+      },
+      "ARC-000-PRIN-v1.1": {
+        "type": "PRIN",
+        "project": "000-global",
+        "path": "projects/000-global/ARC-000-PRIN-v1.1.md",
+        "title": "NHS Digital Appointment Service Enterprise Architecture Principles",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-02-10",
+        "lastModified": "2026-02-10"
+      },
+      "ARC-001-GAPS-v1.0": {
+        "type": "GAPS",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/ARC-001-GAPS-v1.0.md",
+        "title": "Gap Analysis and Remediation Plan: NHS Digital Appointment Booking Service",
+        "status": "DRAFT",
+        "severity": "HIGH",
+        "createdDate": "2026-03-01",
+        "lastModified": "2026-03-01"
+      },
+      "ARC-001-PLAN-v1.0": {
+        "type": "PLAN",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/ARC-001-PLAN-v1.0.md",
+        "title": "Project Plan: NHS Digital Appointment Booking Service",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-02-10",
+        "lastModified": "2026-02-10"
+      },
+      "ARC-001-REQ-v1.0": {
+        "type": "REQ",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/ARC-001-REQ-v1.0.md",
+        "title": "Project Requirements: NHS Digital Appointment Booking Service",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-01-26",
+        "lastModified": "2026-01-26"
+      },
+      "ARC-001-RSCH-v1.0": {
+        "type": "RSCH",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/ARC-001-RSCH-v1.0.md",
+        "title": "Technology and Service Research: NHS Digital Appointment Booking Service",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-02-20",
+        "lastModified": "2026-02-20"
+      },
+      "ARC-001-TRAC-v1.0": {
+        "type": "TRAC",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/ARC-001-TRAC-v1.0.md",
+        "title": "Requirements Traceability Matrix: NHS Digital Appointment Booking Service",
+        "status": "DRAFT",
+        "severity": "HIGH",
+        "createdDate": "2026-03-01",
+        "lastModified": "2026-03-01"
+      },
+      "ARC-001-TRAC-v1.1": {
+        "type": "TRAC",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/ARC-001-TRAC-v1.1.md",
+        "title": "Requirements Traceability Matrix: NHS Digital Appointment Booking Service",
+        "status": "DRAFT",
+        "severity": "HIGH",
+        "createdDate": "2026-03-01",
+        "lastModified": "2026-03-01"
+      },
+      "ARC-001-WARD-001-v1.1": {
+        "type": "WARD",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/wardley-maps/ARC-001-WARD-001-v1.1.md",
+        "title": "Wardley Map: NHS Digital Appointment Booking Service - Current State & Procurement Strategy",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-02-10",
+        "lastModified": "2026-02-12"
+      },
+      "ARC-001-AWRS-v1.0": {
+        "type": "AWRS",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/research/ARC-001-AWRS-v1.0.md",
+        "title": "AWS Technology Research: NHS Digital Appointment Booking Service",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-02-10",
+        "lastModified": "2026-02-10"
+      },
+      "ARC-001-AZRS-v1.0": {
+        "type": "AZRS",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/research/ARC-001-AZRS-v1.0.md",
+        "title": "Azure Technology Research: NHS Digital Appointment Booking Service",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-02-10",
+        "lastModified": "2026-02-10"
+      },
+      "ARC-001-GCRS-v1.0": {
+        "type": "GCRS",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.0.md",
+        "title": "Google Cloud Technology Research: NHS Digital Appointment Booking Service",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-02-10",
+        "lastModified": "2026-02-10"
+      },
+      "ARC-001-GCRS-v1.1": {
+        "type": "GCRS",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.1.md",
+        "title": "Google Cloud Technology Research: NHS Digital Appointment Booking Service",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-02-10",
+        "lastModified": "2026-02-10"
+      },
+      "ARC-001-GCRS-v1.2": {
+        "type": "GCRS",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.2.md",
+        "title": "Google Cloud Technology Research: NHS Digital Appointment Booking Service",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-02-10",
+        "lastModified": "2026-02-10"
+      },
+      "ARC-001-RSCH-v2.0": {
+        "type": "RSCH",
+        "project": "001-nhs-appointment-booking",
+        "path": "projects/001-nhs-appointment-booking/research/ARC-001-RSCH-v2.0.md",
+        "title": "Technology and Service Research: NHS Digital Appointment Booking Service",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-03-01",
+        "lastModified": "2026-03-01"
+      }
+    },
+    "edges": [
+      {
+        "from": "ARC-001-GAPS-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-GAPS-v1.0",
+        "to": "ARC-001-RSCH",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-PLAN-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-PLAN-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-RSCH-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-RSCH",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-AWRS",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-AZRS",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-GCRS",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-WARD-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-PLAN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-HLD",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-DLD",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-ADR-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-RSCH",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-AWRS",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-AZRS",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-GCRS",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-WARD-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-PLAN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-GAPS",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-HLD",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-DLD",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-ADR-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-001-v1.1",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-001-v1.1",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-001-v1.1",
+        "to": "ARC-001-AWRS",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-001-v1.1",
+        "to": "ARC-001-AZRS",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-001-v1.1",
+        "to": "ARC-001-GCRS",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-GCRS-v1.2",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-RSCH-v2.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      }
+    ]
+  }
 }
