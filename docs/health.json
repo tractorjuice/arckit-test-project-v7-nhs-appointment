@@ -1,42 +1,29 @@
 {
-  "generated": "2026-02-28T23:15:00Z",
+  "generated": "2026-04-20T08:21:33.771Z",
   "scanned": {
-    "projects": 2,
-    "artifacts": 11
+    "projects": 1,
+    "artifacts": 7
   },
   "summary": {
     "HIGH": 0,
-    "MEDIUM": 1,
+    "MEDIUM": 0,
     "LOW": 0,
-    "total": 1
+    "total": 0
   },
   "byType": {
     "STALE-RSCH": 0,
     "FORGOTTEN-ADR": 0,
     "UNRESOLVED-COND": 0,
     "STALE-EXT": 0,
-    "ORPHAN-REQ": 1,
+    "ORPHAN-REQ": 0,
     "MISSING-TRACE": 0,
     "VERSION-DRIFT": 0
   },
   "projects": [
     {
-      "id": "000-global",
-      "artifacts": 2,
-      "findings": []
-    },
-    {
       "id": "001-nhs-appointment-booking",
-      "artifacts": 9,
-      "findings": [
-        {
-          "severity": "MEDIUM",
-          "rule": "ORPHAN-REQ",
-          "file": "ARC-001-REQ-v1.0.md",
-          "message": "Total requirements: 47. Requirements not referenced by any ADR: 47 (no ADRs exist in project). Examples: BR-001, BR-002, FR-001, FR-002, NFR-P-001",
-          "action": "Review whether these requirements need architectural decisions documented as ADRs"
-        }
-      ]
+      "artifacts": 7,
+      "findings": []
     }
   ]
 }

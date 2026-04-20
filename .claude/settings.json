@@ -1,4 +1,7 @@
 {
+  "enabledPlugins": {
+    "arckit@arc-kit": true
+  },
   "extraKnownMarketplaces": {
     "arc-kit": {
       "source": {
@@ -6,8 +9,5 @@
         "repo": "tractorjuice/arc-kit"
       }
     }
-  },
-  "enabledPlugins": {
-    "arckit@arc-kit": true
   }
 }
