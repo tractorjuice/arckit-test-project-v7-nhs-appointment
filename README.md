@@ -1,120 +1,120 @@
-# NHS Appointment Booking
+# NHS Digital Appointment Service
 
-National Health Service appointment booking system
+An ArcKit-managed enterprise architecture governance project for an NHS appointment booking system with NHS Spine integration and UK GDPR safeguards.
+
+Live documentation site: <https://tractorjuice.github.io/arckit-test-project-v7-nhs-appointment/>
 
 ## Overview
 
-This is an ArcKit-managed enterprise architecture governance project.
+This repository demonstrates the use of [ArcKit](https://github.com/tractorjuice/arc-kit) to generate, govern, and publish the full set of enterprise architecture artifacts for a UK Government digital service. All artifacts follow NHS Digital standards (NHS Data Dictionary, HL7 FHIR, NHS login, PDS, DSPT, DCB0129) and UK Government frameworks (GDS Service Standard, TCoP, Secure by Design, Green Book).
 
-## Getting Started
+## Current Project State
 
-This project uses [ArcKit](https://github.com/tractorjuice/arc-kit) for enterprise architecture governance and vendor procurement.
+- **Project**: `001-nhs-appointment-booking`
+- **Artifacts**: 13 architecture documents (requirements, plan, research, traceability, Wardley map, cloud research for AWS/Azure/GCP, gap analysis)
+- **Vendor profiles**: 5 (AWS, Azure, Grafana Labs, NHS England Digital, NHS Notify)
+- **Tech notes**: 6 (Aurora PostgreSQL, Grafana OSS, HAPI FHIR, NHS App integration, NHS BaRS FHIR, NHS login OIDC)
+- **Global**: Architecture principles (v1.0, v1.1)
 
-### Available Commands
+Run `/arckit:health` for a live governance health scan and `/arckit:pages` to regenerate the documentation site.
 
-Once you start your AI assistant, you'll have access to 43 commands:
+## Using ArcKit
 
-#### Project Planning
-- `/arckit.plan` - Create project plan with timeline, phases, and gates
+ArcKit is distributed as a Claude Code plugin providing 80+ slash commands grouped into the following workflow stages:
 
-#### Core Workflow
-- `/arckit.principles` - Create or update architecture principles
-- `/arckit.stakeholders` - Analyze stakeholder drivers, goals, and outcomes
-- `/arckit.risk` - Create comprehensive risk register (Orange Book)
-- `/arckit.sobc` - Create Strategic Outline Business Case (Green Book 5-case)
-- `/arckit.requirements` - Define comprehensive requirements
-- `/arckit.data-model` - Create data model with ERD, GDPR compliance, data governance
-- `/arckit.research` - Research technology, services, and products with build vs buy analysis
-- `/arckit.datascout` - Discover external data sources, APIs, and open data portals
-- `/arckit.wardley` - Create strategic Wardley Maps for build vs buy and procurement strategy
-- `/arckit.adr` - Document architectural decisions with options analysis
+### Discovery & Planning
+`/arckit:principles`, `/arckit:stakeholders`, `/arckit:risk`, `/arckit:sobc`, `/arckit:requirements`, `/arckit:data-model`, `/arckit:plan`, `/arckit:roadmap`, `/arckit:strategy`
 
-#### Cloud Research
-- `/arckit.aws-research` - Research AWS services using AWS Knowledge MCP
-- `/arckit.azure-research` - Research Azure services using Microsoft Learn MCP
+### Research
+`/arckit:research`, `/arckit:datascout`, `/arckit:aws-research`, `/arckit:azure-research`, `/arckit:gcp-research`, `/arckit:gov-reuse`, `/arckit:gov-code-search`, `/arckit:gov-landscape`, `/arckit:grants`
 
-#### Vendor Procurement
-- `/arckit.sow` - Generate Statement of Work (RFP)
-- `/arckit.dos` - Digital Outcomes and Specialists (DOS) procurement
-- `/arckit.gcloud-search` - Search G-Cloud services on UK Digital Marketplace
-- `/arckit.gcloud-clarify` - Validate G-Cloud services and generate clarification questions
-- `/arckit.evaluate` - Create vendor evaluation framework and score vendors
+### Architecture & Decisions
+`/arckit:adr`, `/arckit:diagram`, `/arckit:wardley` (+ value-chain, climate, doctrine, gameplay), `/arckit:hld-review`, `/arckit:dld-review`, `/arckit:platform-design`, `/arckit:data-mesh-contract`
 
-#### Design & Delivery
-- `/arckit.diagram` - Generate visual architecture diagrams using Mermaid
-- `/arckit.hld-review` - Review High-Level Design
-- `/arckit.dld-review` - Review Detailed Design
-- `/arckit.backlog` - Generate prioritised product backlog with GDS user stories
-- `/arckit.devops` - Create DevOps strategy with CI/CD pipelines
-- `/arckit.finops` - Create FinOps strategy for cloud cost management
-- `/arckit.mlops` - Create MLOps strategy with model lifecycle and governance
-- `/arckit.operationalize` - Create operational readiness pack with runbooks and DR/BCP
-- `/arckit.roadmap` - Create strategic architecture roadmap
-- `/arckit.platform-design` - Create platform strategy using Platform Design Toolkit
+### Governance & Traceability
+`/arckit:traceability`, `/arckit:analyze`, `/arckit:conformance`, `/arckit:impact`, `/arckit:principles-compliance`, `/arckit:maturity-model`, `/arckit:health`
 
-#### Service Management
-- `/arckit.servicenow` - Generate ServiceNow service design
-- `/arckit.traceability` - Generate requirements traceability matrix
-- `/arckit.analyze` - Comprehensive governance quality analysis
-- `/arckit.data-mesh-contract` - Federated data product contracts
-- `/arckit.principles-compliance` - Architecture principles compliance scorecard
+### UK Government Compliance
+`/arckit:tcop`, `/arckit:service-assessment`, `/arckit:secure`, `/arckit:mod-secure`, `/arckit:ai-playbook`, `/arckit:dpia`, `/arckit:atrs`, `/arckit:jsp-936`
 
-#### UK Government Compliance
-- `/arckit.service-assessment` - GDS Service Standard assessment preparation
-- `/arckit.tcop` - Technology Code of Practice assessment
-- `/arckit.ai-playbook` - AI Playbook compliance for responsible AI
-- `/arckit.dpia` - Data Protection Impact Assessment (UK GDPR Article 35)
-- `/arckit.atrs` - Algorithmic Transparency Recording Standard (ATRS) record
+### EU Compliance (community)
+`/arckit:eu-rgpd`, `/arckit:eu-nis2`, `/arckit:eu-ai-act`, `/arckit:eu-dora`, `/arckit:eu-cra`, `/arckit:eu-dsa`, `/arckit:eu-data-act`
 
-#### Security Assessment
-- `/arckit.secure` - UK Government Secure by Design
-- `/arckit.mod-secure` - MOD Secure by Design
-- `/arckit.jsp-936` - MOD JSP 936 AI assurance documentation
+### French Government Compliance (community)
+`/arckit:fr-rgpd`, `/arckit:fr-anssi`, `/arckit:fr-anssi-carto`, `/arckit:fr-ebios`, `/arckit:fr-dinum`, `/arckit:fr-secnumcloud`, `/arckit:fr-dr`, `/arckit:fr-pssi`, `/arckit:fr-algorithme-public`, `/arckit:fr-marche-public`, `/arckit:fr-code-reuse`
 
-#### Reporting
-- `/arckit.story` - Generate project story with timeline and governance achievements
-- `/arckit.pages` - Generate GitHub Pages site for project documentation
+### Procurement
+`/arckit:sow`, `/arckit:evaluate`, `/arckit:score`, `/arckit:dos`, `/arckit:gcloud-search`, `/arckit:gcloud-clarify`
+
+### Operations
+`/arckit:devops`, `/arckit:mlops`, `/arckit:finops`, `/arckit:operationalize`, `/arckit:servicenow`
+
+### Delivery & Reporting
+`/arckit:backlog`, `/arckit:trello`, `/arckit:story`, `/arckit:glossary`, `/arckit:presentation`, `/arckit:pages`, `/arckit:search`, `/arckit:framework`
 
 ## Project Structure
 
 ```
-nhs-appointment-booking/
+.
 ├── .arckit/
-│   ├── templates/        # Document templates
-│   └── scripts/bash/     # Helper scripts
-│   ├── commands/         # ArcKit slash commands
-│   └── agents/           # Autonomous research agents
-├── .codex/prompts/       # Codex CLI commands
-├── .gemini/commands/     # Gemini CLI commands
-├── docs/
-│   ├── guides/           # Command usage guides
-│   └── README.md         # Documentation index
+│   ├── memory/                # Global architecture artifacts
+│   ├── templates/             # Document templates
+│   └── scripts/bash/          # Helper scripts
+├── .claude/                   # Claude Code settings and hooks
 ├── projects/
 │   ├── 000-global/
-│   │   ├── policies/     # Organisation-wide policy documents
-│   │   └── ARC-000-PRIN-v1.0.md
-│   └── 001-project-name/
+│   │   ├── ARC-000-PRIN-v1.0.md
+│   │   ├── ARC-000-PRIN-v1.1.md
+│   │   ├── policies/          # Organisation-wide policies
+│   │   └── external/          # Enterprise reference documents
+│   └── 001-nhs-appointment-booking/
 │       ├── ARC-001-REQ-v1.0.md
-│       ├── ARC-001-STKE-v1.0.md
-│       ├── external/     # External documents (PDFs, images)
-│       └── vendors/      # Vendor submissions
-├── DEPENDENCY-MATRIX.md  # Command dependencies
-├── WORKFLOW-DIAGRAMS.md  # Visual workflows
-└── VERSION
+│       ├── ARC-001-PLAN-v1.0.md
+│       ├── ARC-001-RSCH-v1.0.md
+│       ├── ARC-001-TRAC-v1.0.md, v1.1.md
+│       ├── ARC-001-GAPS-v1.0.md
+│       ├── research/          # Cloud & technology research
+│       ├── wardley-maps/      # Strategic maps
+│       ├── vendors/           # Vendor profiles and submissions
+│       ├── tech-notes/        # Technical reference notes
+│       └── external/          # External documents
+└── docs/                      # Generated GitHub Pages site
+    ├── index.html             # Governance dashboard
+    ├── manifest.json          # Document index
+    ├── health.json            # Health scan results
+    ├── llms.txt               # LLM/agent discovery index
+    └── guides/                # Command usage guides
 ```
 
-## Next Steps
+## Requirement ID Conventions
 
-1. Start your AI assistant: `claude`
-2. Run `/arckit.principles` to establish architecture governance
-3. Run `/arckit.stakeholders` to analyze stakeholder drivers and goals
-4. Run `/arckit.requirements` to define project requirements
+- `BR-xxx` — Business Requirements
+- `FR-xxx` — Functional Requirements
+- `NFR-xxx` — Non-Functional (NFR-P performance, NFR-SEC security, NFR-A availability)
+- `INT-xxx` — Integration Requirements
+- `DR-xxx` — Data Requirements
 
-Full dependency ordering is documented in [`DEPENDENCY-MATRIX.md`](DEPENDENCY-MATRIX.md).
+Traceability chain: Stakeholders → Goals → Requirements → Data Model → Components → User Stories.
+
+## NHS-Specific Standards
+
+- NHS Data Dictionary (clinical coding)
+- HL7 FHIR (clinical data exchange)
+- NHS login (citizen authentication via OIDC)
+- PDS — Personal Demographics Service
+- DSPT — Data Security and Protection Toolkit
+- DCB0129 — Clinical Risk Management for health IT
+
+## Getting Started
+
+1. Launch Claude Code: `claude`
+2. Run `/arckit:start` for guided onboarding
+3. Run `/arckit:health` to view current governance status
+4. Run `/arckit:pages` to regenerate the documentation site
 
 ## Documentation
 
-- [ArcKit Documentation](https://github.com/tractorjuice/arc-kit)
+- [ArcKit Project](https://github.com/tractorjuice/arc-kit)
 - [Command Guides](docs/guides/)
-- [Dependency Matrix](DEPENDENCY-MATRIX.md)
-- [Workflow Diagrams](WORKFLOW-DIAGRAMS.md)
+- [Live Documentation Site](https://tractorjuice.github.io/arckit-test-project-v7-nhs-appointment/)
+- [`CLAUDE.md`](CLAUDE.md) — project conventions for AI assistants
