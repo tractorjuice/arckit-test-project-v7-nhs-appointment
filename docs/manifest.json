@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-20T08:21:46.896Z",
+  "generated": "2026-11-17T10:08:00.035Z",
   "repository": {
     "name": "arckit-test-project-v7-nhs-appointment"
   },
@@ -9,643 +9,1754 @@
       "path": "docs/guides/adr.md",
       "title": "Architecture Decision Record (ADR) Guide",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/ai-playbook.md",
-      "title": "AI Playbook Assessment Playbook",
+      "title": "AI Playbook for the UK Government: the 10 principles",
       "category": "Compliance",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/analyze.md",
       "title": "Project Analysis Playbook",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/archify.md",
+      "title": "Interactive Diagram Guide",
+      "category": "Architecture",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/artifact-health.md",
       "title": "Artifact Health Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/atrs.md",
       "title": "Algorithmic Transparency Recording Standard Playbook",
       "category": "Compliance",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/autoresearch.md",
       "title": "Autoresearch Guide: Self-Improving Command Prompts",
-      "category": "Other",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/aws-documentation-mcp.md",
+      "title": "AWS documentation MCP servers: Knowledge, Documentation, AWS MCP",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/aws-research.md",
-      "title": "AWS Technology Research Guide",
+      "title": "AWS Well-Architected Framework: the six pillars and AWS research",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/azure-research.md",
       "title": "Azure Technology Research Guide",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/backlog.md",
-      "title": "Product Backlog Quick Guide",
+      "title": "Product backlog and user story template",
       "category": "Planning",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/build.md",
+      "title": "Build Harness Guide",
+      "category": "Plugin Operations",
+      "status": "live",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/business-case.md",
       "title": "Strategic Outline Business Case (SOBC) Guide",
       "category": "Planning",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/byo-llm.md",
+      "title": "Bring Your Own LLM",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/c4-layout-science.md",
       "title": "C4 Layout Science Guide",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/codes-of-practice.md",
       "title": "UK Government Codes of Practice — ArcKit Reference Guide",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/competitors.md",
+      "title": "Competitor Landscape Guide",
+      "category": "Procurement",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/conformance.md",
       "title": "Architecture Conformance Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/custom-commands.md",
+      "title": "Custom Commands Authoring Guide",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/customize.md",
       "title": "Template Customization Guide",
-      "category": "Getting Started",
-      "status": "live"
+      "category": "Plugin Operations",
+      "status": "live",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/data-mesh-contract.md",
-      "title": "Data Mesh Contract Quick Guide",
+      "title": "Data mesh and data contracts: a data product contract guide",
       "category": "Architecture",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/data-model.md",
-      "title": "Data Model Quick Guide",
+      "title": "Data model: entity relationship diagram (ERD) and logical model",
       "category": "Architecture",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/data-quality-framework.md",
       "title": "UK Government Data Quality Framework — ArcKit Reference Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/datascout.md",
       "title": "Data Source Discovery Guide",
       "category": "Discovery",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/design-review.md",
       "title": "Design Review Guide",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/devops.md",
       "title": "DevOps Strategy Playbook",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dfd.md",
-      "title": "Data Flow Diagram Guide",
+      "title": "Data flow diagram (DFD): Yourdon-DeMarco symbols and levels",
       "category": "Architecture",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/diagram.md",
-      "title": "Architecture Diagram Guide",
+      "title": "C4 model architecture diagrams: context, container and component",
       "category": "Architecture",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dld-review.md",
       "title": "Detailed Design Review Playbook",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dos.md",
       "title": "Digital Outcomes and Specialists Playbook",
       "category": "Procurement",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dpia.md",
-      "title": "Data Protection Impact Assessment (DPIA) Guide",
+      "title": "Data protection impact assessment (DPIA): when you need one and how",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
-      "path": "docs/guides/eu-ai-act.md",
-      "title": "EU AI Act Compliance Assessment Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/eu-cra.md",
-      "title": "EU Cyber Resilience Act Compliance Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/eu-data-act.md",
-      "title": "EU Data Act Compliance Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/eu-dora.md",
-      "title": "EU DORA Compliance Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/eu-dsa.md",
-      "title": "EU Digital Services Act Compliance Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/eu-nis2.md",
-      "title": "EU NIS2 Directive Compliance Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/eu-rgpd.md",
-      "title": "EU GDPR Compliance Assessment Playbook",
-      "category": "Compliance",
-      "status": "community"
+      "path": "docs/guides/enterprise-scale.md",
+      "title": "ArcKit at Enterprise Scale",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/evaluate.md",
       "title": "Vendor Evaluation Playbook",
       "category": "Procurement",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/export-okf.md",
+      "title": "`/arckit:export-okf` - Open Knowledge Format export",
+      "category": "Interoperability",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/finops.md",
-      "title": "FinOps Strategy Playbook",
+      "title": "FinOps framework: a guide to cloud cost management",
       "category": "Operations",
-      "status": "experimental"
-    },
-    {
-      "path": "docs/guides/fr-algorithme-public.md",
-      "title": "French Public Algorithm Transparency Notice Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-anssi-carto.md",
-      "title": "ANSSI IS Cartography Playbook",
-      "category": "Architecture",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-anssi.md",
-      "title": "ANSSI Security Posture Assessment Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-code-reuse.md",
-      "title": "French Public Code Reuse Assessment Playbook",
-      "category": "Architecture",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-dinum.md",
-      "title": "DINUM Digital Standards Assessment Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-dr.md",
-      "title": "Diffusion Restreinte (DR) Handling Assessment Playbook",
-      "category": "Governance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-ebios.md",
-      "title": "EBIOS Risk Manager Playbook",
-      "category": "Governance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-marche-public.md",
-      "title": "French Public Procurement Playbook",
-      "category": "Procurement",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-pssi.md",
-      "title": "PSSI (Information System Security Policy) Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-rgpd.md",
-      "title": "French GDPR / CNIL Compliance Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-secnumcloud.md",
-      "title": "SecNumCloud Qualification Assessment Playbook",
-      "category": "Compliance",
-      "status": "community"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/framework.md",
       "title": "Framework Guide",
       "category": "Architecture",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gcloud-clarify.md",
       "title": "G-Cloud Clarification Questions Playbook",
       "category": "Procurement",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gcloud-search.md",
-      "title": "G-Cloud Search Playbook",
+      "title": "G-Cloud 15 (and G-Cloud 14): searching the Digital Marketplace",
       "category": "Procurement",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gcp-research.md",
-      "title": "Google Cloud Technology Research Guide",
+      "title": "Google Cloud research with the Developer Knowledge MCP server",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/glossary.md",
       "title": "Glossary Guide",
       "category": "Reporting",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gov-code-search.md",
       "title": "Government Code Search Guide",
-      "category": "Other",
-      "status": "beta"
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gov-landscape.md",
       "title": "Government Code Landscape Analysis Guide",
-      "category": "Other",
-      "status": "beta"
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gov-reuse.md",
       "title": "Government Code Reuse Assessment Guide",
-      "category": "Other",
-      "status": "beta"
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/govs-007-security.md",
       "title": "GovS 007: Security — ArcKit Reference Guide",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/grants.md",
+      "title": "Innovate UK grants and UK government funding: a research guide",
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/graph-report.md",
+      "title": "`/arckit:graph-report` — governance metrics dashboard",
+      "category": "Governance",
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/health.md",
       "title": "Health Check Guide",
       "category": "Governance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/hld-review.md",
       "title": "High-Level Design Review Playbook",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/hooks.md",
       "title": "Hooks Guide",
-      "category": "Other",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/impact.md",
       "title": "Impact Analysis",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/import-okf.md",
+      "title": "`/arckit:import-okf` - Open Knowledge Format import",
+      "category": "Interoperability",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/init.md",
       "title": "Init Guide",
       "category": "Getting Started",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/jsp-936.md",
-      "title": "JSP 936 AI Assurance Guide",
+      "title": "JSP 936: Dependable AI in Defence and how to evidence it",
       "category": "Compliance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/knowledge-compounding.md",
       "title": "Knowledge Compounding Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/maturity-model.md",
       "title": "Maturity Model Guide",
       "category": "Governance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/mcp-servers.md",
       "title": "ArcKit Plugin Setup Guide",
-      "category": "Integrations",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/microsoft-learn-mcp.md",
+      "title": "Microsoft Learn MCP server: setup, tools and endpoint",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/migration.md",
       "title": "File Migration Playbook",
       "category": "Planning",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/mlops.md",
-      "title": "MLOps Strategy Playbook",
+      "title": "MLOps framework: model lifecycle and maturity guide",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/mod-secure.md",
-      "title": "MOD Secure by Design Playbook",
+      "title": "MOD Secure by Design: the 7 principles and assessment",
       "category": "Compliance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/national-data-strategy.md",
       "title": "UK National Data Strategy — ArcKit Reference Guide",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/navigator.md",
+      "title": "`/arckit:navigator` — what should I do next?",
+      "category": "Governance",
+      "status": "live",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/nl-overlay.md",
+      "title": "Netherlands Public Sector Overlay Guide",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
     },
     {
       "path": "docs/guides/operationalize.md",
       "title": "Operational Readiness Playbook",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/pages.md",
       "title": "GitHub Pages Generator Playbook",
       "category": "Reporting",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/pinecone-mcp.md",
       "title": "Pinecone MCP Integration Guide",
-      "category": "Integrations",
-      "status": "experimental"
+      "category": "Plugin Operations",
+      "status": "experimental",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/plan.md",
       "title": "Project Plan Playbook",
       "category": "Planning",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/platform-design.md",
       "title": "Platform Strategy Design Guide",
       "category": "Architecture",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/presentation.md",
       "title": "Presentation Guide",
       "category": "Reporting",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/principles-compliance.md",
       "title": "Principles Compliance Guide",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/principles.md",
       "title": "Architecture Principles Guide",
       "category": "Architecture",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/procurement.md",
       "title": "Vendor Procurement Guide",
       "category": "Procurement",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/productivity.md",
       "title": "Architecture Productivity Guide",
-      "category": "Getting Started",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/remote-control.md",
       "title": "Govern Architecture from Anywhere: Using Claude Code Remote Control with ArcKit",
-      "category": "Getting Started",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/requirements.md",
-      "title": "Requirements Guide",
+      "title": "Non-functional requirements and the business requirements document",
       "category": "Discovery",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/research.md",
       "title": "Technology Research Guide",
       "category": "Discovery",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/risk-management.md",
       "title": "Risk Management Guide",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/risk.md",
-      "title": "Risk Register Playbook",
+      "title": "Risk register: template and Orange Book guide",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/roadmap.md",
       "title": "Architecture Roadmap Playbook",
       "category": "Planning",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/score.md",
       "title": "Vendor Scoring",
       "category": "Procurement",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/search.md",
       "title": "Project Search",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/secure.md",
-      "title": "Secure by Design Playbook",
+      "title": "Secure by Design for UK government: the 10 principles and assessment",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/security-hooks.md",
       "title": "Security Hooks Guide",
-      "category": "Compliance",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/service-assessment.md",
-      "title": "GDS Service Assessment Guide",
+      "title": "GDS Service Standard assessment: the 14 points and how to prepare",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/servicenow.md",
-      "title": "ServiceNow Service Design Playbook",
+      "title": "CMDB and ServiceNow service design: a practical guide",
       "category": "Integrations",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/session-memory.md",
       "title": "Session Memory",
-      "category": "Other",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/sobc.md",
-      "title": "Strategic Outline Business Case Playbook",
+      "title": "Business case template: Green Book five case model and SOBC",
       "category": "Planning",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/sow.md",
-      "title": "Statement of Work Playbook",
+      "title": "Statement of work (SOW): template and what to include",
       "category": "Procurement",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/stakeholder-analysis.md",
       "title": "Stakeholder Analysis Guide",
       "category": "Discovery",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/stakeholders.md",
-      "title": "Stakeholder Analysis Playbook",
+      "title": "Stakeholder mapping and analysis: power/interest grid guide",
       "category": "Discovery",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/start.md",
       "title": "Getting Started with ArcKit",
       "category": "Getting Started",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/story.md",
       "title": "Project Story Guide",
       "category": "Reporting",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/strategy.md",
       "title": "Architecture Strategy Playbook",
       "category": "Planning",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/tcop.md",
-      "title": "Technology Code of Practice Playbook",
+      "title": "Technology Code of Practice (TCoP): 13 points and assessment evidence",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/template-builder.md",
       "title": "Template Builder Guide",
-      "category": "Getting Started",
-      "status": "alpha"
+      "category": "Plugin Operations",
+      "status": "alpha",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/tenders.md",
+      "title": "Find a Tender and Contracts Finder: UK public contract award data",
+      "category": "Procurement",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/traceability.md",
-      "title": "Traceability Guide",
+      "title": "Requirements traceability matrix: guide and template",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/trello.md",
       "title": "Trello Export Quick Guide",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/upgrading.md",
       "title": "Upgrading ArcKit",
-      "category": "Getting Started",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/wardley-climate.md",
       "title": "Climate Assessment Playbook",
-      "category": "Other",
-      "status": "beta"
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley-doctrine.md",
       "title": "Doctrine Assessment Playbook",
-      "category": "Other",
-      "status": "beta"
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley-gameplay.md",
       "title": "Gameplay Analysis Playbook",
-      "category": "Other",
-      "status": "beta"
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley-value-chain.md",
       "title": "Value Chain Decomposition Playbook",
-      "category": "Other",
-      "status": "beta"
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley.md",
-      "title": "Wardley Mapping Playbook",
-      "category": "Architecture",
-      "status": "experimental"
+      "title": "Wardley mapping: value chains, evolution and build vs buy",
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/agent-design.md",
+      "title": "AI Agent Design Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-governance.md",
+      "title": "AI Agent Governance Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-integration.md",
+      "title": "AI Agent Integration Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-inventory.md",
+      "title": "AI Agent Inventory Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-maturity.md",
+      "title": "AI Agent Maturity Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-security.md",
+      "title": "AI Agent Security Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-concepts.md",
+      "title": "arc42 Crosscutting Concepts Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-debt.md",
+      "title": "arc42 Technical Debt Register Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-handover.md",
+      "title": "arc42 SDD Handover Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-quality.md",
+      "title": "arc42 Quality Scenarios Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42.md",
+      "title": "arc42 Architecture Description Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/at-barrierefreiheit.md",
+      "title": "Austrian Accessibility (BaFG / WZG) Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/at-bvergg.md",
+      "title": "Austrian Federal Procurement Act (BVergG 2018) Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/at-dsgvo.md",
+      "title": "Austrian DSG / DSGVO Compliance Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/at-nisg.md",
+      "title": "Austrian NIS Act (NISG) Compliance Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/au-ai-assurance.md",
+      "title": "Australian AI Assurance Baseline Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-disp-attestation.md",
+      "title": "Australian DISP Member Self-Attestation Pack Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-dss.md",
+      "title": "Australian DTA Digital Service Standard Conformance Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-e8-posture.md",
+      "title": "Australian Essential Eight Maturity Posture Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-ism-controls.md",
+      "title": "Australian ISM Statement of Applicability Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-ndb-playbook.md",
+      "title": "Australian Notifiable Data Breach Response Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-ot-security.md",
+      "title": "AU OT Security",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-pia.md",
+      "title": "Australian Privacy Impact Assessment Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-pspf.md",
+      "title": "Australian Protective Security Policy Framework Scorecard Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-soci-cirmp.md",
+      "title": "AU SOCI CIRMP",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-aescsf.md",
+      "title": "AU AESCSF Maturity Assessment",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-energy-compliance.md",
+      "title": "AU Energy Compliance Pack",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/ca-aia.md",
+      "title": "Canada Algorithmic Impact Assessment Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-atip.md",
+      "title": "Canada ATIP Reconciliation Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-charter.md",
+      "title": "Canada Charter Rights Design Review Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-cloud-residency.md",
+      "title": "Canada Sovereign Cloud Residency Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-fitaa.md",
+      "title": "Canada FITAA Compliance Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-gc-digital-standards.md",
+      "title": "Canada GC Digital Standards Conformance Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-itsg-33.md",
+      "title": "Canada ITSG-33 Statement of Applicability Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-ocap.md",
+      "title": "Canada First Nations OCAP® Sovereignty Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-ola.md",
+      "title": "Canada Official Languages Act Review Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-pia.md",
+      "title": "Canada Privacy Impact Assessment Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-pspc.md",
+      "title": "Canada Federal Procurement Strategy Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-soia.md",
+      "title": "Canada Foreign Interference and Security of Information Act Handling Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/eu-ai-act.md",
+      "title": "EU AI Act Compliance Assessment Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-cloud-sovereignty.md",
+      "title": "EU Cloud Sovereignty Framework Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-cra.md",
+      "title": "EU Cyber Resilience Act Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-data-act.md",
+      "title": "EU Data Act Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-dora.md",
+      "title": "EU DORA Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-dsa.md",
+      "title": "EU Digital Services Act Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-nis2.md",
+      "title": "EU NIS2 Directive Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-rgpd.md",
+      "title": "EU GDPR Compliance Assessment Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/create.md",
+      "title": "FDE Site Generator Guide",
+      "category": "FDE Site Generator",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "FDE Site Generator"
+    },
+    {
+      "path": "docs/guides/fr-algorithme-public.md",
+      "title": "French Public Algorithm Transparency Notice Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-anssi-carto.md",
+      "title": "ANSSI IS Cartography Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-anssi.md",
+      "title": "ANSSI Security Posture Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-code-reuse.md",
+      "title": "French Public Code Reuse Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-dinum.md",
+      "title": "DINUM Digital Standards Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-dr.md",
+      "title": "Diffusion Restreinte (DR) Handling Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-ebios.md",
+      "title": "EBIOS Risk Manager Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-irn.md",
+      "title": "IRN — Indice de Résilience Numérique Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-marche-public.md",
+      "title": "French Public Procurement Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-pssi.md",
+      "title": "PSSI (Information System Security Policy) Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-rgpd.md",
+      "title": "French GDPR / CNIL Compliance Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-secnumcloud.md",
+      "title": "SecNumCloud Qualification Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/nl-bio.md",
+      "title": "BIO2 Conformance Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-cloud.md",
+      "title": "Rijksbreed Cloudbeleid Compliance Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-exit.md",
+      "title": "Cloud Exit Plan (Clause 3.2) Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-gemma.md",
+      "title": "GEMMA Alignment Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-nora.md",
+      "title": "NORA Conformance Assessment Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-tbb.md",
+      "title": "Te Beschermen Belangen (TBB) Determination Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/agile-governance.md",
+      "title": "O-AA Agile Governance Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agile-security.md",
+      "title": "O-AA Agile Security Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agile-strategy.md",
+      "title": "O-AA Agile Strategy Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/oaa-adm-lite.md",
+      "title": "O-AA ADM Lite Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/product-architecture.md",
+      "title": "O-AA Product Architecture Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/repo-audit.md",
+      "title": "Codebase Audit Guide",
+      "category": "Repository Plugin",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Repository Plugin"
+    },
+    {
+      "path": "docs/guides/repo-docs.md",
+      "title": "Repository Documentation Wiki Guide",
+      "category": "Repository Plugin",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Repository Plugin"
+    },
+    {
+      "path": "docs/guides/adm-preliminary.md",
+      "title": "TOGAF ADM Preliminary Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/application-inventory.md",
+      "title": "Application Inventory Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/application-rationalization.md",
+      "title": "Application Rationalization Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/architecture-board.md",
+      "title": "Architecture Board Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/architecture-change.md",
+      "title": "Architecture Change Request Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/architecture-repository.md",
+      "title": "Architecture Repository Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/business-capability-map.md",
+      "title": "Business Capability Map Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/gap-analysis.md",
+      "title": "TOGAF Gap Analysis Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/transition-architecture.md",
+      "title": "Transition Architecture Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/uae-ai-autonomy-tier.md",
+      "title": "UAE AI Autonomy Tier Posture Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-ai-charter.md",
+      "title": "UAE Charter for AI Compliance Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-classification.md",
+      "title": "UAE Smart Data Classification Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-cloud-residency.md",
+      "title": "UAE Sovereign Cloud Residency Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-data-sharing.md",
+      "title": "UAE Data Sharing Agreement Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-digital-records.md",
+      "title": "UAE Digital Records Plan Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-ias.md",
+      "title": "UAE Information Assurance Standard (IAS) Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-pdpl.md",
+      "title": "UAE PDPL Compliance Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-priorities-alignment.md",
+      "title": "UAE National Priorities Alignment Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-procurement.md",
+      "title": "UAE Federal Procurement Strategy Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-uaepass.md",
+      "title": "UAE Pass Integration Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-zero-bureaucracy.md",
+      "title": "UAE Zero Bureaucracy & Code for Government Services Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-consumer-duty.md",
+      "title": "Consumer Duty Annual Board Report (`/arckit:uk-fs-consumer-duty`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-ctp-dependency.md",
+      "title": "Critical Third Party Dependency Assessment (`/arckit:uk-fs-ctp-dependency`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-safeguarding.md",
+      "title": "EMI / PI Safeguarding Assessment (`/arckit:uk-fs-safeguarding`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-sca-rts.md",
+      "title": "SCA-RTS Exemption Design (`/arckit:uk-fs-sca-rts`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/declaration.md",
+      "title": "G-Cloud Supplier Declaration Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/gcloud-competitors.md",
+      "title": "G-Cloud Competitor Benchmark Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/lot-questions.md",
+      "title": "G-Cloud Lot Questions Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/pricing.md",
+      "title": "G-Cloud Pricing Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/review.md",
+      "title": "G-Cloud Submission Review Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot1a.md",
+      "title": "G-Cloud Lot 1a Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot1b.md",
+      "title": "G-Cloud Lot 1b Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot2a.md",
+      "title": "G-Cloud Lot 2a Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot2b.md",
+      "title": "G-Cloud Lot 2b Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot3.md",
+      "title": "G-Cloud Lot 3 Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/security.md",
+      "title": "G-Cloud Security Assertions Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/service-design.md",
+      "title": "G-Cloud Service Design Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/social-value.md",
+      "title": "G-Cloud Social Value Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/submission-pack.md",
+      "title": "G-Cloud Submission Pack Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/supplier-profile.md",
+      "title": "G-Cloud Supplier Profile Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/legacy-assessment.md",
+      "title": "Legacy IT assessment",
+      "category": "UK Legacy IT Assessment Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Legacy IT Assessment Overlay"
+    },
+    {
+      "path": "docs/guides/uk-mdr-classification.md",
+      "title": "UK + EU MDR SaMD / AIaMD Classification Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-nhs-dcb0129.md",
+      "title": "NHS DCB0129 Manufacturer Clinical Safety Case Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-nhs-dcb0160.md",
+      "title": "NHS DCB0160 Deployer Clinical Safety Case Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-nhs-dtac.md",
+      "title": "NHS DTAC Assessment Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/us-ai-impact.md",
+      "title": "US AI Impact Assessment (OMB M-25-21 / M-25-22)",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-ai-rmf.md",
+      "title": "US NIST AI RMF Assessment",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-fedramp-readiness.md",
+      "title": "US FedRAMP Readiness Self-Assessment",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-fedramp-ssp.md",
+      "title": "US FedRAMP System Security Plan",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-fisma-categorization.md",
+      "title": "US FIPS 199 System Categorization",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-icam.md",
+      "title": "US ICAM Architecture",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-nist-800-53.md",
+      "title": "US NIST SP 800-53 Rev 5 Tailored Control Set",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-privacy-pia.md",
+      "title": "US Privacy Impact Assessment (E-Gov §208)",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-sbom-eo-14028.md",
+      "title": "US EO 14028 Secure-Software Self-Attestation + SBOM",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-zero-trust.md",
+      "title": "US CISA ZTMM v2.0 Maturity Posture",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
     }
   ],
   "roleGuides": [
@@ -758,19 +1869,62 @@
       "commandCount": 5
     }
   ],
+  "guideSectionOrder": [
+    "Core Workflows",
+    "Plugin and Extension Operations",
+    "Overlay Packs",
+    "Community Guides",
+    "Other / Uncategorised"
+  ],
+  "guideCategoryOrder": [
+    "Getting Started",
+    "Discovery",
+    "Planning",
+    "Architecture",
+    "Wardley Mapping",
+    "Governance",
+    "Compliance",
+    "Operations",
+    "Procurement",
+    "Interoperability",
+    "Integrations",
+    "Reporting",
+    "Plugin Operations",
+    "AI Agent Architecture Overlay",
+    "FDE Site Generator",
+    "Repository Plugin",
+    "TOGAF ADM Overlay",
+    "Open Agile Architecture Overlay",
+    "arc42 Overlay",
+    "Australian Federal / Energy Overlay",
+    "Community overlays - Austria",
+    "Canada Federal Overlay",
+    "Community overlays - EU",
+    "Community overlays - France",
+    "Community overlays - Netherlands",
+    "UAE Federal Overlay",
+    "UK G-Cloud Supplier Overlay",
+    "UK Finance Payments Overlay",
+    "UK NHS Clinical Safety Overlay",
+    "USA Federal Civilian Overlay",
+    "Community",
+    "Other"
+  ],
   "global": [
     {
       "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
       "title": "Architecture Principles",
       "category": "Architecture",
       "documentId": "ARC-000-PRIN-v1.0",
+      "extension": ".md",
       "isDefault": true
     },
     {
       "path": "projects/000-global/ARC-000-PRIN-v1.1.md",
       "title": "Architecture Principles",
       "category": "Architecture",
-      "documentId": "ARC-000-PRIN-v1.1"
+      "documentId": "ARC-000-PRIN-v1.1",
+      "extension": ".md"
     }
   ],
   "typeCategories": {
@@ -778,6 +1932,8 @@
     "STKE": "Discovery",
     "RSCH": "Discovery",
     "DSCT": "Discovery",
+    "TNDR": "Discovery",
+    "CMPT": "Discovery",
     "SOBC": "Planning",
     "PLAN": "Planning",
     "ROAD": "Planning",
@@ -796,13 +1952,42 @@
     "DFD": "Architecture",
     "ADR": "Architecture",
     "PLAT": "Architecture",
+    "ADMP": "Architecture",
+    "BPCM": "Architecture",
+    "APP": "Architecture",
+    "APPR": "Architecture",
+    "GAPA": "Governance",
+    "TRANS": "Planning",
+    "BORD": "Governance",
+    "ACHG": "Governance",
+    "REPO": "Architecture",
+    "AAGI": "Architecture",
+    "AAGR": "Architecture",
+    "AAOV": "Governance",
+    "AAIN": "Architecture",
+    "AASE": "Governance",
+    "AAMT": "Governance",
+    "OASTR": "Planning",
+    "OAPR": "Architecture",
+    "OAAL": "Architecture",
+    "OASEC": "Governance",
+    "OAGOV": "Governance",
+    "ARC42": "Architecture",
+    "QUAL": "Architecture",
+    "CONC": "Architecture",
+    "DEBT": "Architecture",
+    "SDDH": "Planning",
     "RISK": "Governance",
     "TRAC": "Governance",
     "PRIN-COMP": "Governance",
     "CONF": "Governance",
     "PRES": "Reporting",
+    "DECK": "Reporting",
     "ANAL": "Governance",
     "GAPS": "Governance",
+    "CDAU": "Governance",
+    "GLOS": "Governance",
+    "FWRK": "Governance",
     "TCOP": "Compliance",
     "SECD": "Compliance",
     "SECD-MOD": "Compliance",
@@ -810,6 +1995,7 @@
     "ATRS": "Compliance",
     "DPIA": "Compliance",
     "JSP936": "Compliance",
+    "LEGACY": "Compliance",
     "SVCASS": "Compliance",
     "SNOW": "Operations",
     "DEVOPS": "Operations",
@@ -821,6 +2007,17 @@
     "DOS": "Procurement",
     "GCLD": "Procurement",
     "GCLC": "Procurement",
+    "SUPP": "Procurement",
+    "SVCD": "Procurement",
+    "SDD": "Procurement",
+    "DECL": "Procurement",
+    "PRIC": "Procurement",
+    "SECA": "Procurement",
+    "GCMP": "Procurement",
+    "GCRV": "Procurement",
+    "SOCV": "Procurement",
+    "LOTQ": "Procurement",
+    "RATE": "Procurement",
     "DMC": "Procurement",
     "VEND": "Procurement",
     "AWRS": "Research",
@@ -838,6 +2035,8 @@
     "CRA": "Compliance",
     "DSA": "Compliance",
     "DATAACT": "Compliance",
+    "EUCSF": "Compliance",
+    "IRN": "Governance",
     "CNIL": "Compliance",
     "SECNUM": "Compliance",
     "MARPUB": "Procurement",
@@ -848,7 +2047,70 @@
     "DR": "Compliance",
     "ALGO": "Compliance",
     "PSSI": "Compliance",
-    "REUSE": "Procurement"
+    "REUSE": "Procurement",
+    "ATBFR": "Compliance",
+    "ATDSG": "Compliance",
+    "ATNISG": "Compliance",
+    "BVERGG": "Procurement",
+    "PDPL": "Compliance",
+    "IAS": "Compliance",
+    "CRES": "Architecture",
+    "CLAS": "Governance",
+    "UPASS": "Architecture",
+    "ZBUR": "Governance",
+    "DREC": "Governance",
+    "DSHR": "Governance",
+    "NPRA": "Governance",
+    "AICH": "Compliance",
+    "AUTI": "Architecture",
+    "FPRO": "Procurement",
+    "FITAA": "Compliance",
+    "PIA": "Compliance",
+    "ATIP": "Compliance",
+    "AIA": "Compliance",
+    "CHRT": "Governance",
+    "ITSG": "Architecture",
+    "SOIA": "Compliance",
+    "CACR": "Architecture",
+    "DIGSTD": "Governance",
+    "OLA": "Compliance",
+    "PROC": "Procurement",
+    "OCAP": "Governance",
+    "FIPS199": "Compliance",
+    "NIST": "Architecture",
+    "FRSSP": "Compliance",
+    "FRRR": "Compliance",
+    "ZTA": "Architecture",
+    "ICAM": "Architecture",
+    "AIRMF": "Compliance",
+    "AIIA": "Compliance",
+    "USPIA": "Compliance",
+    "SBOM": "Compliance",
+    "AUE8": "Compliance",
+    "AUISM": "Compliance",
+    "AUPIA": "Compliance",
+    "AUNDB": "Compliance",
+    "AUOT": "Compliance",
+    "AUSOCI": "Compliance",
+    "AUAESCSF": "Compliance",
+    "AUENERGY": "Compliance",
+    "AUDSS": "Governance",
+    "AUPSPF": "Governance",
+    "AUAIA": "Compliance",
+    "AUDISP": "Compliance",
+    "RBCLOUD": "Compliance",
+    "TBB": "Compliance",
+    "BIO2": "Compliance",
+    "NLEXIT": "Governance",
+    "NORA": "Governance",
+    "GEMMA": "Architecture",
+    "FSSCA": "Compliance",
+    "FSSAFE": "Compliance",
+    "FSCD": "Compliance",
+    "FSCTP": "Compliance",
+    "NHSDTAC": "Compliance",
+    "NHSMDR": "Compliance",
+    "MMOD": "Governance"
   },
   "projects": [
     {
@@ -859,76 +2121,43 @@
           "path": "projects/001-nhs-appointment-booking/ARC-001-GAPS-v1.0.md",
           "title": "Gap Analysis",
           "category": "Governance",
-          "documentId": "ARC-001-GAPS-v1.0"
+          "documentId": "ARC-001-GAPS-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-nhs-appointment-booking/ARC-001-PLAN-v1.0.md",
           "title": "Project Plan",
           "category": "Planning",
-          "documentId": "ARC-001-PLAN-v1.0"
+          "documentId": "ARC-001-PLAN-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-nhs-appointment-booking/ARC-001-REQ-v1.0.md",
           "title": "Requirements",
           "category": "Discovery",
-          "documentId": "ARC-001-REQ-v1.0"
+          "documentId": "ARC-001-REQ-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-nhs-appointment-booking/ARC-001-RSCH-v1.0.md",
           "title": "Research Findings",
           "category": "Discovery",
-          "documentId": "ARC-001-RSCH-v1.0"
+          "documentId": "ARC-001-RSCH-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-nhs-appointment-booking/ARC-001-TRAC-v1.0.md",
           "title": "Traceability Matrix",
           "category": "Governance",
-          "documentId": "ARC-001-TRAC-v1.0"
+          "documentId": "ARC-001-TRAC-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-nhs-appointment-booking/ARC-001-TRAC-v1.1.md",
           "title": "Traceability Matrix",
           "category": "Governance",
-          "documentId": "ARC-001-TRAC-v1.1"
-        }
-      ],
-      "wardleyMaps": [
-        {
-          "path": "projects/001-nhs-appointment-booking/wardley-maps/ARC-001-WARD-001-v1.1.md",
-          "title": "Wardley Map: NHS Digital Appointment Booking Service - Current State & Procurement Strategy",
-          "documentId": "ARC-001-WARD-001-v1.1"
-        }
-      ],
-      "research": [
-        {
-          "path": "projects/001-nhs-appointment-booking/research/ARC-001-AWRS-v1.0.md",
-          "title": "AWS Technology Research: NHS Digital Appointment Booking Service",
-          "documentId": "ARC-001-AWRS-v1.0"
-        },
-        {
-          "path": "projects/001-nhs-appointment-booking/research/ARC-001-AZRS-v1.0.md",
-          "title": "Azure Technology Research: NHS Digital Appointment Booking Service",
-          "documentId": "ARC-001-AZRS-v1.0"
-        },
-        {
-          "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.0.md",
-          "title": "Google Cloud Technology Research: NHS Digital Appointment Booking Service",
-          "documentId": "ARC-001-GCRS-v1.0"
-        },
-        {
-          "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.1.md",
-          "title": "Google Cloud Technology Research: NHS Digital Appointment Booking Service",
-          "documentId": "ARC-001-GCRS-v1.1"
-        },
-        {
-          "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.2.md",
-          "title": "Google Cloud Technology Research: NHS Digital Appointment Booking Service",
-          "documentId": "ARC-001-GCRS-v1.2"
-        },
-        {
-          "path": "projects/001-nhs-appointment-booking/research/ARC-001-RSCH-v2.0.md",
-          "title": "Technology and Service Research: NHS Digital Appointment Booking Service",
-          "documentId": "ARC-001-RSCH-v2.0"
+          "documentId": "ARC-001-TRAC-v1.1",
+          "extension": ".md"
         }
       ],
       "vendorProfiles": [
@@ -978,6 +2207,52 @@
           "path": "projects/001-nhs-appointment-booking/tech-notes/nhs-login-oidc.md",
           "title": "Tech Note: NHS Login and OpenID Connect Integration"
         }
+      ],
+      "wardleyMaps": [
+        {
+          "path": "projects/001-nhs-appointment-booking/wardley-maps/ARC-001-WARD-001-v1.1.md",
+          "title": "Wardley Map: NHS Digital Appointment Booking Service - Current State & Procurement Strategy",
+          "documentId": "ARC-001-WARD-001-v1.1",
+          "extension": ".md"
+        }
+      ],
+      "research": [
+        {
+          "path": "projects/001-nhs-appointment-booking/research/ARC-001-AWRS-v1.0.md",
+          "title": "AWS Technology Research: NHS Digital Appointment Booking Service",
+          "documentId": "ARC-001-AWRS-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/research/ARC-001-AZRS-v1.0.md",
+          "title": "Azure Technology Research: NHS Digital Appointment Booking Service",
+          "documentId": "ARC-001-AZRS-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.0.md",
+          "title": "Google Cloud Technology Research: NHS Digital Appointment Booking Service",
+          "documentId": "ARC-001-GCRS-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.1.md",
+          "title": "Google Cloud Technology Research: NHS Digital Appointment Booking Service",
+          "documentId": "ARC-001-GCRS-v1.1",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/research/ARC-001-GCRS-v1.2.md",
+          "title": "Google Cloud Technology Research: NHS Digital Appointment Booking Service",
+          "documentId": "ARC-001-GCRS-v1.2",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-nhs-appointment-booking/research/ARC-001-RSCH-v2.0.md",
+          "title": "Technology and Service Research: NHS Digital Appointment Booking Service",
+          "documentId": "ARC-001-RSCH-v2.0",
+          "extension": ".md"
+        }
       ]
     }
   ],
@@ -991,7 +2266,35 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-01-22",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Enterprise Architecture Team",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-GLOBAL-PRIN-v1.1",
+          "Document Type": "Enterprise Architecture Principles",
+          "Project": "NHS Digital Appointment Service (Global)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2026-01-22",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Annual",
+          "Next Review Date": "2027-01-26",
+          "Owner": "Enterprise Architecture Team",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "All project teams, suppliers, and stakeholders"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": true,
+          "ageDays": 295
+        }
       },
       "ARC-000-PRIN-v1.1": {
         "type": "PRIN",
@@ -1001,7 +2304,35 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-02-10",
-        "lastModified": "2026-02-10"
+        "lastModified": "2026-02-10",
+        "version": "1.1",
+        "owner": "Enterprise Architecture Team",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-000-PRIN-v1.1",
+          "Document Type": "Enterprise Architecture Principles",
+          "Project": "NHS Digital Appointment Service (Global)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2026-02-10",
+          "Last Modified": "2026-02-10",
+          "Review Cycle": "Annual",
+          "Next Review Date": "2027-02-10",
+          "Owner": "Enterprise Architecture Team",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "All project teams, suppliers, and stakeholders"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": true,
+          "ageDays": 280
+        }
       },
       "ARC-001-GAPS-v1.0": {
         "type": "GAPS",
@@ -1011,7 +2342,62 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-03-01",
-        "lastModified": "2026-03-01"
+        "lastModified": "2026-03-01",
+        "version": "1.0",
+        "owner": "Product Owner, NHS Digital",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-GAPS-v1.0",
+          "Document Type": "Traceability Gap Analysis",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-01",
+          "Last Modified": "2026-03-01",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-03-31",
+          "Owner": "Product Owner, NHS Digital",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team, Clinical Safety Team",
+          "Gap ID": "GAP-017",
+          "Severity": "LOW",
+          "Requirements Affected": "FR-008",
+          "Impact": "NHS Login Proxy Service API still in development — timeline TBC",
+          "Root Cause": "DPIA and data protection design depend on system architecture"
+        },
+        "reqIds": [
+          "NFR-P-001",
+          "NFR-P-003",
+          "NFR-SEC-001",
+          "NFR-SEC-006",
+          "NFR-U-002",
+          "NFR-C-002",
+          "BR-005",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "NFR-SEC-004",
+          "NFR-SEC-005",
+          "NFR-C-001",
+          "NFR-C-003",
+          "NFR-S-002",
+          "NFR-P-002",
+          "NFR-M-002",
+          "NFR-M-003",
+          "BR-003",
+          "BR-006",
+          "FR-009",
+          "FR-008"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 261
+        }
       },
       "ARC-001-PLAN-v1.0": {
         "type": "PLAN",
@@ -1021,7 +2407,35 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-10",
-        "lastModified": "2026-02-10"
+        "lastModified": "2026-02-10",
+        "version": "1.0",
+        "owner": "[PENDING]",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-PLAN-v1.0",
+          "Document Type": "Project Plan",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-10",
+          "Last Modified": "2026-02-10",
+          "Review Cycle": "On-Demand",
+          "Next Review Date": "2026-03-10",
+          "Owner": "[PENDING]",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 280
+        }
       },
       "ARC-001-REQ-v1.0": {
         "type": "REQ",
@@ -1031,7 +2445,84 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-01-26",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Product Owner, NHS Digital",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-REQ-v1.0",
+          "Document Type": "Business and Technical Requirements",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-01-26",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-02-26",
+          "Owner": "Product Owner, NHS Digital",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Project Team, Architecture Team, Clinical Safety Team, Suppliers",
+          "Total": "**TBD/year**"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-002",
+          "BR-003",
+          "BR-004",
+          "BR-005",
+          "BR-006",
+          "FR-001",
+          "FR-002",
+          "INT-001",
+          "INT-002",
+          "FR-003",
+          "FR-004",
+          "FR-005",
+          "INT-003",
+          "FR-006",
+          "FR-007",
+          "FR-008",
+          "INT-004",
+          "FR-009",
+          "FR-010",
+          "FR-011",
+          "INT-005",
+          "FR-012",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-P-003",
+          "NFR-A-001",
+          "NFR-A-002",
+          "NFR-A-003",
+          "NFR-S-001",
+          "NFR-S-002",
+          "NFR-SEC-001",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "NFR-SEC-004",
+          "NFR-SEC-005",
+          "NFR-SEC-006",
+          "NFR-C-001",
+          "NFR-C-002",
+          "NFR-C-003",
+          "NFR-U-001",
+          "NFR-U-002",
+          "NFR-U-003",
+          "NFR-M-001",
+          "NFR-M-002",
+          "NFR-M-003",
+          "INT-006"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-RSCH-v1.0": {
         "type": "RSCH",
@@ -1041,7 +2532,101 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-20",
-        "lastModified": "2026-02-20"
+        "lastModified": "2026-02-20",
+        "version": "1.0",
+        "owner": "Enterprise Architect, NHS Digital",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-RSCH-v1.0",
+          "Document Type": "Technology and Service Research",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-20",
+          "Last Modified": "2026-02-20",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-05-20",
+          "Owner": "Enterprise Architect, NHS Digital",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Project Team, Architecture Team, Procurement, Clinical Safety Team",
+          "GOV.UK Platforms": "2 categories",
+          "TOTAL": "8 categories",
+          "Total": "**£50,000**",
+          "3-Year TCO": "|",
+          "TOTAL (infrastructure + tooling)": "| **£897,000**",
+          "Total Development": "**£1,140,000**",
+          "COMBINED TOTAL": "**£2,037,000**",
+          "Recommended Blend": "**£5,421,500**",
+          "1. Define user needs": "Compliant",
+          "2. Make things accessible": "Compliant",
+          "3. Be open and use open standards": "Compliant",
+          "4. Make use of open source": "Compliant",
+          "5. Use cloud first": "Compliant",
+          "6. Make things secure": "Compliant",
+          "7. Make privacy integral": "Compliant",
+          "8. Share, reuse and collaborate": "Compliant",
+          "9. Integrate and adapt technology": "Compliant",
+          "10. Make better use of data": "Compliant",
+          "11. Define your purchasing strategy": "In Progress",
+          "12. Meet the Service Standard": "GDS/NHS Assessment",
+          "13. Spend controls": "Required"
+        },
+        "reqIds": [
+          "NFR-M-001",
+          "NFR-A-001",
+          "NFR-A-002",
+          "NFR-S-001",
+          "NFR-SEC-003",
+          "NFR-SEC-006",
+          "NFR-C-001",
+          "INT-005",
+          "FR-001",
+          "FR-005",
+          "INT-004",
+          "NFR-SEC-001",
+          "FR-008",
+          "FR-010",
+          "NFR-A-003",
+          "BR-004",
+          "INT-001",
+          "INT-002",
+          "INT-003",
+          "FR-002",
+          "FR-003",
+          "DR-001",
+          "DR-002",
+          "DR-003",
+          "DR-004",
+          "NFR-S-002",
+          "BR-006",
+          "NFR-SEC-004",
+          "FR-009",
+          "NFR-P-003",
+          "NFR-C-003",
+          "NFR-P-001",
+          "INT-006",
+          "NFR-SEC-005",
+          "NFR-P-002",
+          "NFR-U-002",
+          "FR-004",
+          "FR-006",
+          "FR-007",
+          "FR-011",
+          "FR-012",
+          "NFR-SEC-002",
+          "NFR-C-002",
+          "NFR-U-001"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 270
+        }
       },
       "ARC-001-TRAC-v1.0": {
         "type": "TRAC",
@@ -1051,7 +2636,84 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-03-01",
-        "lastModified": "2026-03-01"
+        "lastModified": "2026-03-01",
+        "version": "1.0",
+        "owner": "Product Owner, NHS Digital",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-TRAC-v1.0",
+          "Document Type": "Requirements Traceability Matrix",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-01",
+          "Last Modified": "2026-03-01",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-03-31",
+          "Owner": "Product Owner, NHS Digital",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team, Clinical Safety Team, Suppliers",
+          "Total": "**47**"
+        },
+        "reqIds": [
+          "BR-001",
+          "FR-001",
+          "FR-002",
+          "FR-003",
+          "FR-006",
+          "FR-007",
+          "FR-012",
+          "BR-002",
+          "FR-004",
+          "FR-005",
+          "FR-009",
+          "BR-003",
+          "FR-011",
+          "BR-004",
+          "FR-008",
+          "FR-010",
+          "BR-005",
+          "NFR-C-003",
+          "BR-006",
+          "INT-006",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-P-003",
+          "NFR-A-001",
+          "NFR-A-002",
+          "NFR-A-003",
+          "NFR-S-001",
+          "NFR-S-002",
+          "NFR-SEC-001",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "NFR-SEC-004",
+          "NFR-SEC-005",
+          "NFR-SEC-006",
+          "NFR-C-001",
+          "NFR-C-002",
+          "NFR-U-001",
+          "NFR-U-002",
+          "NFR-U-003",
+          "NFR-M-001",
+          "NFR-M-002",
+          "NFR-M-003",
+          "INT-001",
+          "INT-002",
+          "INT-003",
+          "INT-004",
+          "INT-005"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 261
+        }
       },
       "ARC-001-TRAC-v1.1": {
         "type": "TRAC",
@@ -1061,7 +2723,84 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-03-01",
-        "lastModified": "2026-03-01"
+        "lastModified": "2026-03-01",
+        "version": "1.1",
+        "owner": "Product Owner, NHS Digital",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-TRAC-v1.1",
+          "Document Type": "Requirements Traceability Matrix",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2026-03-01",
+          "Last Modified": "2026-03-01",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-03-31",
+          "Owner": "Product Owner, NHS Digital",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team, Clinical Safety Team, Suppliers",
+          "Total": "**100%**"
+        },
+        "reqIds": [
+          "BR-001",
+          "FR-001",
+          "FR-002",
+          "FR-003",
+          "FR-006",
+          "FR-007",
+          "FR-012",
+          "BR-002",
+          "FR-004",
+          "FR-005",
+          "FR-009",
+          "BR-003",
+          "FR-011",
+          "BR-004",
+          "FR-008",
+          "FR-010",
+          "BR-005",
+          "NFR-C-003",
+          "BR-006",
+          "INT-006",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-P-003",
+          "NFR-A-001",
+          "NFR-A-002",
+          "NFR-A-003",
+          "NFR-S-001",
+          "NFR-S-002",
+          "NFR-SEC-001",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "NFR-SEC-004",
+          "NFR-SEC-005",
+          "NFR-SEC-006",
+          "NFR-C-001",
+          "NFR-C-002",
+          "NFR-U-001",
+          "NFR-U-002",
+          "NFR-U-003",
+          "NFR-M-001",
+          "NFR-M-002",
+          "NFR-M-003",
+          "INT-001",
+          "INT-002",
+          "INT-003",
+          "INT-004",
+          "INT-005"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 261
+        }
       },
       "ARC-001-WARD-001-v1.1": {
         "type": "WARD",
@@ -1071,7 +2810,92 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-02-10",
-        "lastModified": "2026-02-12"
+        "lastModified": "2026-02-12",
+        "version": "1.1",
+        "owner": "Enterprise Architecture Team",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Document ID": "ARC-001-WARD-001-v1.1",
+          "Document Type": "Wardley Map",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2026-02-10",
+          "Last Modified": "2026-02-12",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-05-10",
+          "Owner": "Enterprise Architecture Team",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team",
+          "Social Inertia": "Cultural norms, established practices",
+          "Financial Inertia": "Sunk costs, budget allocation",
+          "Political Inertia": "Power dynamics, vested interests",
+          "Physical/Technical Inertia": "Legacy systems, skill sets",
+          "Phase I: Stop Self-Harm": "Basic Awareness & Stabilisation",
+          "Phase II: Becoming More Context Aware": "Contextual Awareness & Optimisation",
+          "Phase III: Better for Less": "Continuous Improvement",
+          "Phase IV: Continuously Evolving": "Adaptability & Strategic Agility",
+          "Communication": "Common Language",
+          "Development": "Know Your Users",
+          "Operation": "Know the Details",
+          "Learning": "Systematic Learning (Bias Towards Data)",
+          "Leading": "Move Fast",
+          "Structure": "Think Small Teams",
+          "Everything Evolves": "Hospital PAS integrations will standardise on FHIR; booking patterns will commoditise. Per the KB: *\"All components (activities, practices, mental models) move from the left to the right\"* and *\"No choice on evolution: things move to the right whether you want it or not.\"*",
+          "Efficiency Enables Innovation": "Commodity cloud infrastructure enables focus on booking domain innovation. Per the KB: *\"Standardisation lowers the cost of experimenting, which makes experimentation cheaper, so more experiments are conducted, and more new things are built.\"* Cloud commodity services (Container Platform 0.88, Database 0.90) free capital for genesis/custom booking components.",
+          "Co-Evolution": "FHIR adoption drives GP Connect and PAS integration maturity together. Per the KB: *\"All components can co-evolve... commonly seen with the co-evolution of practice (how we do something) with the evolution of an activity (what we do) especially as we shift from products to more industrialised forms. DevOps is one such example.\"* Similarly, FHIR practice is co-evolving with clinical data exchange.",
+          "Success Breeds Inertia": "NHS staff comfortable with phone-based booking; hospital trusts invested in existing PAS. Per the KB: *\"Past success breeds inertia: everything you do will make changes in the future more difficult, especially if you are successful\"* and *\"it's not a lack of innovation that harmed companies such as Blockbuster and Kodak but instead inertia to change created by past success.\"*",
+          "No One Size Fits All": "Different management methods required for different evolution stages. Per the KB: *\"Exploration requires different approach than commodity market... Agile for the uncharted space, Lean for the transitional, Six Sigma/ITIL for the industrialised domain.\"*",
+          "Higher Order Systems": "Booking + Reminders + Analytics = Intelligent Capacity Management (new value). Per the KB: *\"Higher order systems create new sources of worth\"* — commodity booking components will enable genesis of capacity management intelligence.",
+          "Componentisation Increases": "Monolithic PAS systems being replaced by modular, API-driven services. Per the KB: *\"As an activity becomes industrialised and provided as ever more standardised and commodity components, it allows for increasing speed of implementation and rapid change.\"*",
+          "Red Queen Effect": "Competitive pressure forces NHS trusts to adopt digital booking or fall behind. Per the KB: *\"The pressure for adoption of a successful change increases as more adopt the change... Standing still guarantees you will be overtaken.\"*",
+          "Hospital PAS vendor diversity": "Hospital PAS Integration",
+          "NHS Login dependency": "NHS Login, Book Appointments",
+          "Performance at national scale": "Slot Retrieval, Booking Engine",
+          "Low citizen adoption": "Book Appointments, Reminders",
+          "GP vendor non-cooperation": "GP Connect Integration",
+          "Clinical safety incident": "Booking Engine, Slot Retrieval"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-002",
+          "BR-004",
+          "FR-011",
+          "NFR-U-002",
+          "FR-001",
+          "NFR-P-002",
+          "FR-004",
+          "FR-009",
+          "FR-008",
+          "INT-001",
+          "INT-002",
+          "INT-003",
+          "INT-004",
+          "INT-006",
+          "NFR-SEC-002",
+          "NFR-C-003",
+          "NFR-SEC-003",
+          "NFR-SEC-004",
+          "FR-010",
+          "BR-003",
+          "BR-005",
+          "BR-006",
+          "FR-002",
+          "FR-005",
+          "NFR-P-001",
+          "NFR-SEC-001",
+          "NFR-A-001"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 278
+        }
       },
       "ARC-001-AWRS-v1.0": {
         "type": "AWRS",
@@ -1081,7 +2905,61 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-10",
-        "lastModified": "2026-02-10"
+        "lastModified": "2026-02-10",
+        "version": "1.0",
+        "owner": "Enterprise Architect, NHS Digital",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "research",
+        "controlFields": {
+          "Document ID": "ARC-001-AWRS-v1.0",
+          "Document Type": "AWS Technology Research",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-10",
+          "Last Modified": "2026-02-10",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-03-10",
+          "Owner": "Enterprise Architect, NHS Digital",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Project Team, Architecture Team, Clinical Safety Team",
+          "UK Region Availability": "✅ eu-west-2 (London)",
+          "G-Cloud Listing": "✅ G-Cloud 14",
+          "Data Classification": "✅ OFFICIAL",
+          "NCSC Cloud Security Principles": "✅ 14/14 principles met",
+          "Total": "| **£2,500**",
+          "Operational Excellence": "⭐⭐⭐⭐☆",
+          "Security": "⭐⭐⭐⭐⭐",
+          "Reliability": "⭐⭐⭐⭐⭐",
+          "Performance Efficiency": "⭐⭐⭐⭐⭐",
+          "Cost Optimization": "⭐⭐⭐⭐⭐",
+          "Sustainability": "⭐⭐⭐⭐☆"
+        },
+        "reqIds": [
+          "FR-001",
+          "FR-002",
+          "FR-005",
+          "FR-011",
+          "NFR-P-001",
+          "NFR-S-001",
+          "NFR-A-002",
+          "NFR-C-001",
+          "NFR-SEC-003",
+          "INT-001",
+          "INT-006",
+          "NFR-SEC-001",
+          "NFR-SEC-006",
+          "NFR-C-003"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 280
+        }
       },
       "ARC-001-AZRS-v1.0": {
         "type": "AZRS",
@@ -1091,7 +2969,60 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-10",
-        "lastModified": "2026-02-10"
+        "lastModified": "2026-02-10",
+        "version": "1.0",
+        "owner": "Enterprise Architect, NHS Digital",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "research",
+        "controlFields": {
+          "Document ID": "ARC-001-AZRS-v1.0",
+          "Document Type": "Azure Technology Research",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-10",
+          "Last Modified": "2026-02-10",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-03-10",
+          "Owner": "Enterprise Architect, NHS Digital",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Project Team, Architecture Team, Clinical Safety Team",
+          "UK Region Availability": "✅ UK South, UK West",
+          "G-Cloud Listing": "✅ G-Cloud 14",
+          "Data Classification": "✅ OFFICIAL",
+          "NCSC Cloud Security Principles": "✅ 14/14 principles met",
+          "Total": "| **£3,000**",
+          "Reliability": "⭐⭐⭐⭐⭐",
+          "Security": "⭐⭐⭐⭐⭐",
+          "Cost Optimization": "⭐⭐⭐⭐☆",
+          "Operational Excellence": "⭐⭐⭐⭐⭐",
+          "Performance Efficiency": "⭐⭐⭐⭐☆"
+        },
+        "reqIds": [
+          "FR-001",
+          "FR-002",
+          "FR-005",
+          "FR-011",
+          "NFR-P-001",
+          "NFR-S-001",
+          "NFR-A-002",
+          "NFR-C-001",
+          "NFR-SEC-003",
+          "INT-001",
+          "INT-006",
+          "NFR-SEC-001",
+          "NFR-SEC-006",
+          "NFR-C-003"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 280
+        }
       },
       "ARC-001-GCRS-v1.0": {
         "type": "GCRS",
@@ -1101,7 +3032,61 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-10",
-        "lastModified": "2026-02-10"
+        "lastModified": "2026-02-10",
+        "version": "1.0",
+        "owner": "Enterprise Architect, NHS Digital",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "research",
+        "controlFields": {
+          "Document ID": "ARC-001-GCRS-v1.0",
+          "Document Type": "Google Cloud Technology Research",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-10",
+          "Last Modified": "2026-02-10",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-03-10",
+          "Owner": "Enterprise Architect, NHS Digital",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Project Team, Architecture Team, Clinical Safety Team",
+          "UK Region Availability": "✅ europe-west2 (London)",
+          "G-Cloud Listing": "✅ G-Cloud 14",
+          "Data Classification": "✅ OFFICIAL / OFFICIAL-SENSITIVE",
+          "NCSC Cloud Security Principles": "✅ 14/14 principles met",
+          "Total": "| **£2,500**",
+          "Sustainability": "⭐⭐⭐⭐⭐",
+          "Operational Excellence": "⭐⭐⭐⭐☆",
+          "Security, Privacy and Compliance": "⭐⭐⭐⭐⭐",
+          "Reliability": "⭐⭐⭐⭐⭐",
+          "Cost Optimization": "⭐⭐⭐⭐☆",
+          "Performance Optimization": "⭐⭐⭐⭐⭐"
+        },
+        "reqIds": [
+          "FR-001",
+          "FR-002",
+          "FR-005",
+          "FR-011",
+          "NFR-P-001",
+          "NFR-S-001",
+          "NFR-A-002",
+          "NFR-C-001",
+          "NFR-SEC-003",
+          "INT-001",
+          "INT-006",
+          "NFR-SEC-001",
+          "NFR-SEC-006",
+          "NFR-C-003"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 280
+        }
       },
       "ARC-001-GCRS-v1.1": {
         "type": "GCRS",
@@ -1111,7 +3096,82 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-10",
-        "lastModified": "2026-02-10"
+        "lastModified": "2026-02-10",
+        "version": "1.1",
+        "owner": "Enterprise Architect, NHS Digital",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "research",
+        "controlFields": {
+          "Document ID": "ARC-001-GCRS-v1.1",
+          "Document Type": "Google Cloud Technology Research",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2026-02-10",
+          "Last Modified": "2026-02-10",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-03-10",
+          "Owner": "Enterprise Architect, NHS Digital",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Project Team, Architecture Team, Clinical Safety Team",
+          "UK Region Availability": "✅ europe-west2 (London)",
+          "G-Cloud Listing": "✅ G-Cloud 14",
+          "Data Classification": "✅ OFFICIAL / OFFICIAL-SENSITIVE",
+          "NCSC Cloud Security Principles": "✅ 14/14 principles met",
+          "Total": "| **£500 - £1,500**",
+          "Sustainability": "⭐⭐⭐⭐☆",
+          "Operational Excellence": "⭐⭐⭐⭐⭐",
+          "Security, Privacy and Compliance": "⭐⭐⭐⭐⭐",
+          "Reliability": "⭐⭐⭐⭐☆",
+          "Cost Optimization": "⭐⭐⭐⭐☆",
+          "Performance Optimization": "⭐⭐⭐⭐⭐"
+        },
+        "reqIds": [
+          "FR-001",
+          "FR-002",
+          "FR-003",
+          "FR-004",
+          "FR-005",
+          "FR-006",
+          "FR-007",
+          "FR-008",
+          "FR-009",
+          "FR-011",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-P-003",
+          "NFR-A-003",
+          "NFR-S-001",
+          "NFR-U-001",
+          "NFR-A-002",
+          "NFR-C-001",
+          "NFR-SEC-003",
+          "NFR-S-002",
+          "NFR-C-003",
+          "BR-006",
+          "INT-001",
+          "INT-006",
+          "INT-002",
+          "INT-003",
+          "INT-004",
+          "NFR-SEC-001",
+          "NFR-SEC-006",
+          "NFR-C-002",
+          "NFR-SEC-005",
+          "NFR-SEC-004",
+          "NFR-SEC-002",
+          "BR-002",
+          "INT-005"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 280
+        }
       },
       "ARC-001-GCRS-v1.2": {
         "type": "GCRS",
@@ -1121,7 +3181,120 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-10",
-        "lastModified": "2026-02-10"
+        "lastModified": "2026-02-10",
+        "version": "1.2",
+        "owner": "Enterprise Architect, NHS Digital",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "research",
+        "controlFields": {
+          "Document ID": "ARC-001-GCRS-v1.2",
+          "Document Type": "Google Cloud Technology Research",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.2",
+          "Created Date": "2026-02-10",
+          "Last Modified": "2026-02-10",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-03-10",
+          "Owner": "Enterprise Architect, NHS Digital",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Project Team, Architecture Team, Clinical Safety Team",
+          "UK Region Availability": "✅ europe-west2 (London)",
+          "G-Cloud Listing": "✅ G-Cloud 14",
+          "Data Classification": "✅ OFFICIAL / OFFICIAL-SENSITIVE",
+          "NCSC Cloud Security Principles": "✅ 14/14 principles met",
+          "Total": "| **£24,800 - £39,000**",
+          "Sustainability": "⭐⭐⭐⭐⭐",
+          "Operational Excellence": "⭐⭐⭐⭐⭐",
+          "Security, Privacy and Compliance": "⭐⭐⭐⭐⭐",
+          "Reliability": "⭐⭐⭐⭐⭐",
+          "Cost Optimization": "⭐⭐⭐⭐☆",
+          "Performance Optimization": "⭐⭐⭐⭐⭐",
+          "Misconfiguration Findings": "PUBLICLY_ACCESSIBLE_SQL_INSTANCE, BUCKET_POLICY_ONLY_DISABLED, WEAK_SSL_POLICY",
+          "Vulnerability Findings": "SQL_DATABASE_VERSION, CONTAINER_VULNERABILITY_SCAN",
+          "Threat Findings": "MALWARE_DETECTED, CRYPTOMINING, BRUTE_FORCE_SSH",
+          "Compliance Findings": "CIS_GCP_BENCHMARK_1_3_0, NIST_800_53_R5, PCI_DSS_4_0",
+          "Compute": "Cloud Run, Cloud Functions",
+          "Data": "Cloud SQL, Firestore, Cloud Storage, Memorystore, BigQuery",
+          "Integration": "API Gateway, Cloud Pub/Sub, Eventarc, Cloud Tasks",
+          "Security": "Cloud Armor, Secret Manager, SCC Premium, Cloud KMS, IAM, VPC SC",
+          "AI/ML": "Vertex AI",
+          "Network Egress": "Cross-region, internet egress",
+          "Year 1": "1M registered",
+          "Year 2": "5M registered",
+          "Year 3": "15M registered",
+          "OFFICIAL": "✅ **Suitable**",
+          "OFFICIAL-SENSITIVE": "✅ **Suitable**",
+          "SECRET": "❌ **NOT SUITABLE**",
+          "1. Data in Transit Protection": "Cloud Armor, TLS 1.3",
+          "2. Asset Protection and Resilience": "Multi-zone HA, automated backups",
+          "3. Separation Between Users": "IAM, VPC Service Controls",
+          "4. Governance Framework": "SCC Premium, Cloud Audit Logs",
+          "5. Operational Security": "SCC Premium, automated patching",
+          "6. Personnel Security": "Workload Identity Federation",
+          "7. Secure Development": "Container vulnerability scanning",
+          "8. Supply Chain Security": "Software Bill of Materials (SBOM)",
+          "9. Secure User Management": "Cloud IAM, NHS Login integration",
+          "10. Identity and Authentication": "Multi-factor authentication",
+          "11. External Interface Protection": "Cloud Armor, API Gateway",
+          "12. Secure Service Administration": "IAM, privileged access management",
+          "13. Audit Information for Users": "Cloud Logging, SCC Premium",
+          "14. Secure Use of the Service": "VPC Service Controls",
+          "DSPT (Data Security and Protection Toolkit)": "✅ **Achievable**",
+          "Cyber Essentials Plus": "✅ **Supported**",
+          "DCB0129 (Clinical Risk Management)": "✅ **Supported**",
+          "UK GDPR": "✅ **Compliant**",
+          "Caldicott Principles": "✅ **Supported**"
+        },
+        "reqIds": [
+          "FR-001",
+          "FR-012",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-P-003",
+          "NFR-A-003",
+          "NFR-S-001",
+          "NFR-U-001",
+          "FR-003",
+          "FR-006",
+          "FR-007",
+          "FR-002",
+          "FR-004",
+          "FR-008",
+          "FR-011",
+          "FR-005",
+          "NFR-M-001",
+          "NFR-SEC-002",
+          "NFR-SEC-004",
+          "NFR-A-001",
+          "NFR-A-002",
+          "NFR-C-001",
+          "NFR-SEC-003",
+          "NFR-S-002",
+          "NFR-C-003",
+          "BR-006",
+          "INT-001",
+          "INT-006",
+          "INT-002",
+          "INT-003",
+          "INT-004",
+          "INT-005",
+          "NFR-SEC-001",
+          "NFR-SEC-006",
+          "NFR-C-002",
+          "NFR-SEC-005",
+          "BR-002",
+          "NFR-M-003"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 280
+        }
       },
       "ARC-001-RSCH-v2.0": {
         "type": "RSCH",
@@ -1131,7 +3304,77 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-03-01",
-        "lastModified": "2026-03-01"
+        "lastModified": "2026-03-01",
+        "version": "2.0",
+        "owner": "Enterprise Architect, NHS Digital",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "research",
+        "controlFields": {
+          "Document ID": "ARC-001-RSCH-v2.0",
+          "Document Type": "Technology and Service Research",
+          "Project": "NHS Digital Appointment Booking Service (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "2.0",
+          "Created Date": "2026-03-01",
+          "Last Modified": "2026-03-01",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-06-01",
+          "Owner": "Enterprise Architect, NHS Digital",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Project Team, Architecture Team, Procurement, Clinical Safety Team",
+          "GOV.UK Platforms": "2 categories",
+          "TOTAL": "| **£1,664,000**",
+          "Total": "**£80,000**",
+          "3-Year TCO": "|",
+          "1. Define user needs": "Compliant",
+          "2. Make things accessible": "Compliant",
+          "3. Be open and use open standards": "Compliant",
+          "4. Make use of open source": "Compliant",
+          "5. Use cloud first": "Compliant",
+          "6. Make things secure": "Compliant",
+          "7. Make privacy integral": "Compliant",
+          "8. Share, reuse and collaborate": "Compliant",
+          "9. Integrate and adapt technology": "Compliant",
+          "10. Make better use of data": "Compliant",
+          "11. Define your purchasing strategy": "Compliant",
+          "12. Meet the Service Standard": "Compliant",
+          "13. Spend controls": "Amber"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-002",
+          "FR-005",
+          "INT-004",
+          "FR-008",
+          "NFR-A-001",
+          "NFR-C-001",
+          "NFR-SEC-006",
+          "FR-001",
+          "INT-005",
+          "INT-001",
+          "INT-002",
+          "INT-003",
+          "FR-006",
+          "FR-010",
+          "BR-004",
+          "BR-003",
+          "BR-005",
+          "BR-006",
+          "NFR-SEC-001",
+          "DR-001",
+          "DR-002",
+          "DR-003",
+          "DR-004"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 261
+        }
       }
     },
     "edges": [
@@ -1299,6 +3542,217 @@
         "from": "ARC-001-RSCH-v2.0",
         "to": "ARC-001-REQ",
         "type": "references"
+      }
+    ]
+  },
+  "projectHealth": {
+    "baseline": "2026-11-17T10:08:00.035Z",
+    "staleThresholdDays": 90,
+    "essentialTypes": [
+      {
+        "type": "REQ",
+        "tier": 1,
+        "command": "/arckit:requirements",
+        "label": "Requirements"
+      },
+      {
+        "type": "STKE",
+        "tier": 1,
+        "command": "/arckit:stakeholders",
+        "label": "Stakeholder Analysis"
+      },
+      {
+        "type": "RISK",
+        "tier": 1,
+        "command": "/arckit:risk",
+        "label": "Risk Register"
+      },
+      {
+        "type": "SOBC",
+        "tier": 2,
+        "command": "/arckit:sobc",
+        "label": "Strategic Outline Business Case"
+      },
+      {
+        "type": "ADR",
+        "tier": 3,
+        "command": "/arckit:adr",
+        "label": "Architecture Decision Record"
+      },
+      {
+        "type": "HLDR",
+        "tier": 3,
+        "command": "/arckit:hld-review",
+        "label": "High-Level Design Review"
+      },
+      {
+        "type": "TRAC",
+        "tier": 4,
+        "command": "/arckit:traceability",
+        "label": "Traceability Matrix"
+      },
+      {
+        "type": "CONF",
+        "tier": 4,
+        "command": "/arckit:conformance",
+        "label": "Conformance Assessment"
+      }
+    ],
+    "highSeverityTypes": [
+      "TCOP",
+      "SECD",
+      "SECD-MOD",
+      "DPIA",
+      "SVCASS",
+      "RISK",
+      "TRAC",
+      "CONF",
+      "PRIN-COMP",
+      "AIPB",
+      "ATRS",
+      "JSP936"
+    ],
+    "projects": [
+      {
+        "project": "001-nhs-appointment-booking",
+        "projectId": "001",
+        "artifactCount": 13,
+        "edgeCount": 33,
+        "density": 2.54,
+        "coverage": {
+          "essentialPresent": [
+            "REQ",
+            "TRAC"
+          ],
+          "essentialMissing": [
+            {
+              "type": "STKE",
+              "command": "/arckit:stakeholders",
+              "label": "Stakeholder Analysis",
+              "tier": 1
+            },
+            {
+              "type": "RISK",
+              "command": "/arckit:risk",
+              "label": "Risk Register",
+              "tier": 1
+            },
+            {
+              "type": "SOBC",
+              "command": "/arckit:sobc",
+              "label": "Strategic Outline Business Case",
+              "tier": 2
+            },
+            {
+              "type": "ADR",
+              "command": "/arckit:adr",
+              "label": "Architecture Decision Record",
+              "tier": 3
+            },
+            {
+              "type": "HLDR",
+              "command": "/arckit:hld-review",
+              "label": "High-Level Design Review",
+              "tier": 3
+            },
+            {
+              "type": "CONF",
+              "command": "/arckit:conformance",
+              "label": "Conformance Assessment",
+              "tier": 4
+            }
+          ],
+          "essentialPct": 25,
+          "presentTypes": [
+            "AWRS",
+            "AZRS",
+            "GAPS",
+            "GCRS",
+            "PLAN",
+            "REQ",
+            "RSCH",
+            "TRAC",
+            "WARD"
+          ],
+          "presentByCategory": {
+            "Governance": 2,
+            "Planning": 1,
+            "Discovery": 2,
+            "Architecture": 1,
+            "Research": 3
+          }
+        },
+        "compliance": {
+          "presentHigh": [
+            "TRAC"
+          ],
+          "missingHigh": [
+            "TCOP",
+            "SECD",
+            "SECD-MOD",
+            "DPIA",
+            "SVCASS",
+            "RISK",
+            "CONF",
+            "PRIN-COMP",
+            "AIPB",
+            "ATRS",
+            "JSP936"
+          ],
+          "pct": 8,
+          "total": 12
+        },
+        "health": {
+          "stale": 13,
+          "draft": 13,
+          "orphan": 0
+        },
+        "contextualSuggestions": [
+          {
+            "command": "/arckit:dpia",
+            "type": "DPIA",
+            "trigger": "processing personal data"
+          },
+          {
+            "command": "/arckit:secure",
+            "type": "SECD",
+            "trigger": "security-sensitive system"
+          },
+          {
+            "command": "/arckit:tcop",
+            "type": "TCOP",
+            "trigger": "UK Gov Service Standard"
+          },
+          {
+            "command": "/arckit:data-model",
+            "type": "DATA",
+            "trigger": "DR-* requirements present"
+          }
+        ],
+        "hasGlobalPrin": true,
+        "recommendations": [
+          {
+            "command": "/arckit:stakeholders",
+            "label": "Stakeholder Analysis",
+            "type": "STKE",
+            "tier": 1,
+            "reason": "Tier 1 essential missing"
+          },
+          {
+            "command": "/arckit:risk",
+            "label": "Risk Register",
+            "type": "RISK",
+            "tier": 1,
+            "reason": "Tier 1 essential missing"
+          },
+          {
+            "command": "/arckit:sobc",
+            "label": "Strategic Outline Business Case",
+            "type": "SOBC",
+            "tier": 2,
+            "reason": "Tier 2 essential missing"
+          }
+        ]
       }
     ]
   }
